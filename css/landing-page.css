@@ -71,6 +71,16 @@ h7 {
     background-size: cover;
 }
 
+.contact-header {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: black;
+    background: url(/img/contact.png) no-repeat center center;
+    background-size: cover;
+}
+
+
 .intro-message {
     position: relative;
     padding-top: 20%;
