@@ -26,6 +26,12 @@ h7 {
     font-weight: 700; word-wrap: break-word;
 }
 
+h8 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+}
+
+
 .topnav {
     font-size: 14px; 
 }
