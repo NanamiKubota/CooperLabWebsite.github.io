@@ -31,6 +31,13 @@ h8 {
     font-weight: 500;
 }
 
+h9 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: bold;
+}
+
 
 .topnav {
     font-size: 14px; 
@@ -88,7 +95,7 @@ h8 {
 
 .research-header {
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     text-align: center;
     color: #fbfcfc;
     background: url(/img/notebook.png) no-repeat center center;
