@@ -43,6 +43,9 @@ h10 {
     font-weight: 700;
     font-size: 15px;
     font-style: bold;
+    white-space: wrap;
+    padding-left: 2cm;
+    padding-right: 2cm;
 }
 
 
