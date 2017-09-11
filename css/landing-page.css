@@ -43,9 +43,12 @@ h10 {
     font-weight: 700;
     font-size: 15px;
     font-style: bold;
-    padding-left 50cm;
 }
 
+.ol {
+    list-style-position: inside;
+
+}
 
 .topnav {
     font-size: 14px; 
@@ -103,7 +106,7 @@ h10 {
 
 .research-header {
     padding-top: 50px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     text-align: center;
     color: #fbfcfc;
     background: url(/img/notebook.png) no-repeat center center;
