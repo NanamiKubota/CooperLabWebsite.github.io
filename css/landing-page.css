@@ -49,9 +49,9 @@ a.nounderline {
     text-decoration: none; ;
 }
 
-.ol {
+ul {
     list-style-position: inside;
-
+    margin-left: 100px;
 }
 
 .topnav {
