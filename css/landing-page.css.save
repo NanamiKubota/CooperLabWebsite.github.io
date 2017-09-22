@@ -49,7 +49,7 @@ a.nounderline {
     text-decoration: none; ;
 }
 
-ul.research_questions {
+ul {
     list-style-position: inside;
     margin-left: 100px;
 }
@@ -139,7 +139,7 @@ ul.research_questions {
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
-
+t
 @media(max-width:765px) {
     .intro-message {
         padding-bottom: 15%;
