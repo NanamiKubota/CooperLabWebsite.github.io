@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Cooper Lab - People</title>
+    <title>Cooper Lab - Contact</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -66,13 +66,12 @@
 
     <!-- Header -->
     <a name="about"></a>
-    <div class="pgh-header">
+    <div class="contact-header"> 
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                        <h1>Opportunities</h1>
-                        <hr class="intro-divider">
-		</div>
+                        <h1>Contact Us!</h1>
+        	</div>
             </div>
 
         </div>
@@ -80,6 +79,52 @@
 
     </div>
     <!-- /.intro-header -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-responsive" src="img/package.png" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading"><center>Please Ship To:</center></h2>
+                    <p><font size="4"><center>Dan Snyder<br>450 Technology Drive, Suite 434<br>Pittsburgh PA, 15219</center></font></p>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-responsive" src="img/email.png" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading"><center>Email:</center></h2>
+                    <p><font size="4"><center>Dr. Vaughn Cooper, PI &nbsp;-&nbsp;vaughn.cooper@pitt.edu
+
+		    </font></p>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+
 
     <!-- Footer -->
     <footer>
@@ -90,7 +135,7 @@
                         <li>
                             <a href="index.html">Home</a>
                         </li>
-                        <li class="footer-menu-divider">&sdot;</li><li><a href="/people.html"</a></li><li class="footer-menu-divider">&sdot;</li>
+                        <li class="footer-menu-divider">&sdot;</li>
                         <li>
                             <a href="/research.html">Research</a>
                         </li>
