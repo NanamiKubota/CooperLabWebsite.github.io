@@ -47,7 +47,7 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right"><li><a href="/people.html">People</a></li>
+                <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="/research.html">About</a>
                     </li>
@@ -70,7 +70,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                        <h1>Alfonso's Publications</h1>
+                        <h1>Katrina's Publications</h1>
 			<h3><body link="white"><a href="https://scholar.google.com/citations?hl=en&user=yRoCyfMAAAAJ&view_op=list_works&sortby=pubdate" style="color:white">Google Scholar<a></body></h3>
                 </div>
             </div>

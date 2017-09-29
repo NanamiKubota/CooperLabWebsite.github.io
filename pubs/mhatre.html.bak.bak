@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Alfonso's Publications</title>
+    <title>Vaughn's Publications</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -47,7 +47,7 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right"><li><a href="/people.html">People</a></li>
+                <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="/research.html">About</a>
                     </li>
@@ -70,8 +70,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                        <h1>Alfonso's Publications</h1>
-			<h3><body link="white"><a href="https://scholar.google.com/citations?user=ZbN12dIAAAAJ" style="color:white">Google Scholar</a></body></h3>
+                        <h1>Eisha's Publications</h1>
+			<h3><body link="white"><a href="https://scholar.google.de/citations?user=qiuehhkAAAAJ&hl=en" style="color:white">Google Scholar</a></body></h3>
                 </div>
             </div>
 
@@ -82,7 +82,7 @@
     <!-- /.intro-header -->
 <br>
 <div class="container">    
-  <table class="table table-bordered table-hover  table-striped">
+  <table class="table table-bordered table-striped">
     <thead>
       <tr>
         <th>Year</th>
@@ -94,50 +94,61 @@
     <tbody>
       <tr>
         <td>2017</td>
-        <td>A Naturally Occurring Single Nucleotide Polymorphism in a Multicopy Plasmid Produces a Reversible Increase in Antibiotic Resistance</td>
-        <td><b>Alfonso Santos-Lopez</b>, Cristina Bernabe-Balas, Manuel Ares-Arroyo, Rafael Ortega-Huedo, Andreas Hoefer, Alvaro San Millan, Bruno Gonzalez-Zorn</td>
-        <td><a href="http://aac.asm.org/content/61/2/e01735-16.full">Link</a></td>
+        <td>Presence of Calcium Lowers the Expansion of Bacillus subtilis Colony Biofilms</td>
+        <td><b>Eisha Mhatre</b>, Anandaroopan Sundaram, Theresa Hölscher, Mike Mühlstädt, Jörg Bossert, Ákos T Kovács</td>
+        <td><a href="http://www.mdpi.com/2076-2607/5/1/7/htm">Link</a></td>
       </tr>   
       <tr>
-        <td>2015</td>
-        <td>Small-plasmid-mediated antibiotic resistance is enhanced by increases in plasmid copy number and bacterial fitness</td>
-        <td>Alvaro San Millan, <b>Alfonso Santos-Lopez</b>, Rafael Ortega-Huedo, Cristina Bernabe-Balas, Sean P Kennedy, Bruno Gonzalez-Zorn</td>
-        <td><a href="http://aac.asm.org/content/59/6/3335.full">Link</a></td>
-      </tr>
+        <td>2017</td>
+        <td>Application of quercetin and its bio-inspired nanoparticles as anti-adhesive agents against Bacillus subtilis attachment to surface</td>
+		<td>Diana S Raie, <b>Eisha Mhatre</b>, Matthias Thiele, A Labena, Gamal El-Ghannam, Laila A Farahat, Tareq Youssef, Wolfgang Fritzsche, Ákos T Kovács</td>
+    	<td><a href="http://ac.els-cdn.com/S0928493116313856/1-s2.0-S0928493116313856-main.pdf?_tid=01b74276-7215-11e7-ab4a-00000aab0f26&acdnat=1501082201_a821b19b0970e1cb00cf6f4415a528e4">PDF</a></td>
       <tr>
-        <td>2015</td>
-        <td>Novel blaROB-1-bearing plasmid conferring resistance to β-lactams in Haemophilus parasuis isolates from healthy weaning pigs</td>
-        <td>Javier Moleres, <b>Alfonso Santos-López</b>, Isidro Lázaro, Javier Labairu, Cristina Prat, Carmen Ardanuy, Bruno González-Zorn, Virginia Aragon, Junkal Garmendia</td>
-        <td><a href="http://aem.asm.org/content/81/9/3255.full">Link</a></td>
+        <td>2016</td>
+        <td>Specific Bacillus subtilis 168 variants form biofilms on nutrient-rich medium</td>
+        <td>Ramses Gallegos-Monterrosa, <b>Eisha Mhatre</b>, Ákos T Kovács</td>
+        <td><a href="http://mic.microbiologyresearch.org/content/journal/micro/10.1099/mic.0.000371?crawler=true&mimetype=application/pdf">PDF</a></td>
       </tr>            
       <tr>
-        <td>2015</td>
-        <td>Polymyxin resistance caused by mgrB inactivation is not associated with significant biological cost in Klebsiella pneumoniae</td>
-        <td>Antonio Cannatelli, <b>Alfonso Santos-Lopez</b>, Tommaso Giani, Bruno Gonzalez-Zorn, Gian Maria Rossolini</td>
-        <td><a href="http://aac.asm.org/content/59/5/2898.full">Link</a></td>
-      </tr>            
-      <tr>
-        <td>2013</td>
-        <td>Klebsiella pneumoniae sequence type 11 from companion animals bearing ArmA methyltransferase, DHA-1 β-lactamase, and QnrB4</td>
-        <td>Laura Hidalgo, Belen Gutierrez, Cristina M Ovejero, Laura Carrilero, Stephanie Matrat, Courage KS Saba, <b>Alfonso Santos-Lopez</b>, Daniel Thomas-Lopez, Andreas Hoefer, Monica Suarez, Gloria Santurde, Carmen Martin-Espada, Bruno Gonzalez-Zorn</td>
-        <td><a href="http://aac.asm.org/content/57/9/4532.full">Link</a></td>
+        <td>2016</td>
+        <td>Monitoring Spatial Segregation in Surface Colonizing Microbial Populations</td>
+        <td><b>Theresa Hölscher, Anna Dragoš, Ramses Gallegos-Monterrosa, Marivic Martin, <b>Eisha Mhatre</b>, Anne Richter, Ákos T Kovács</b></td>
+        <td><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5226080/pdf/jove-116-54752.pdf">PDF</a></td>
       </tr>      
       <tr>
-        <td>2012</td>
-        <td>Molecular organization of small plasmids bearing blaTEM-1 and conferring resistance to β-lactams in Haemophilus influenzae</td>
-        <td>Annette Søndergaard, Alvaro San Millan, <b>Alfonso Santos-Lopez</b>, Signe M Nielsen, Bruno Gonzalez-Zorn, Niels Nørskov-Lauritsen</td>
-        <td><a href="http://aac.asm.org/content/56/9/4958.long">Link</a></td>
+        <td>2016</td>
+        <td>Structural damage of Bacillus subtilis biofilms using pulsed laser interaction with gold thin films</td>
+        <td>Judith Krawinkel, Maria Leilani Torres‐Mapa, <b>Eisha Mhatre</b>, Ákos T Kovács, Alexander Heisterkamp</td>
+        <td><a href="http://onlinelibrary.wiley.com/doi/10.1002/jbio.201600146/full">Link</a></td>
+      </tr>      
+      <tr>
+        <td>2016</td>
+        <td>The impact of manganese on biofilm development of Bacillus subtilis</td>
+        <td><b>Eisha Mhatre</b>, Agnieszka Troszok, Ramses Gallegos-Monterrosa, Stefanie Lindstädt, Theresa Hölscher, Oscar P Kuipers, Ákos T Kovács</td>
+        <td><a href="http://mic.microbiologyresearch.org/content/journal/micro/10.1099/mic.0.000320?crawler=true&mimetype=application/pdf">PDF</a></td>
       </tr>                      
       <tr>
-        <td>2011</td>
-        <td>Fitness cost and interference of Arm/Rmt aminoglycoside resistance with the RsmF housekeeping methyltransferases</td>
-        <td>Belen Gutierrez, Jose A Escudero, Alvaro San Millan, Laura Hidalgo, Laura Carrilero, Cristina M Ovejero, <b>Alfonso Santos-Lopez</b>, Daniel Thomas-Lopez, Bruno Gonzalez-Zorn</td>
-        <td><a href="http://aac.asm.org/content/56/5/2335.full">Link</a></td>
+        <td>2015</td>
+        <td>A duo of potassium-responsive histidine kinases govern the multicellular destiny of Bacillus subtilis</td>
+        <td>Roberto R Grau, Paula de Oña, Maritta Kunert, Cecilia Leñini, Ramses Gallegos-Monterrosa, <b>Eisha Mhatre</b>, Darío Vileta, Verónica Donato, Theresa Hölscher, Wilhelm Boland, Oscar P Kuipers, Ákos T Kovács</td>
+        <td><a href="http://mbio.asm.org/content/6/4/e00581-15.full">Link</a></td>
       </tr>      
+      <tr>
+        <td>2014</td>
+        <td>From environmental signals to regulators: Modulation of biofilm development in Gram‐positive bacteria</td>
+        <td><b>Eisha Mhatre</b>, Ramses Gallegos Monterrosa, Ákos T Kovács</td>
+        <td><a href="https://www.researchgate.net/profile/Akos_Kovacs/publication/261924341_From_environmental_signals_to_regulators_Modulation_of_biofilm_development_in_Gram-positive_bacteria/links/0a85e53676b7481fc8000000/From-environmental-signals-to-regulators-Modulation-of-biofilm-development-in-Gram-positive-bacteria.pdf">PDF</a></td>
+      </tr>      
+      <tr>
+        <td>2016</td>
+        <td>Effect of amorphous and crystalline titanium dioxide nano-material on Bacillus Subtilis biofil development</td>
+        <td>DS Raie, <b>Eisha Mhatre</b>, M Thiele, AE Labena, G El-Ghannam, LA Farahat, T Youssef, W Fritzsche</td>
+        <td><a href="http://ciesm.org/online/archives/abstracts/pdf/41/CIESM_Congress_2016_Kiel_article_0305.pdf">PDF</a></td>
+      </tr>                  
     </tbody>
   </table>
 </div>
-    <!-- Footer -->
+ <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">

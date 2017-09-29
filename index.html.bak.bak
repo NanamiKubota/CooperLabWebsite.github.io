@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Cooper Lab - Contact</title>
+    <title>Cooper Lab - Home</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -43,11 +43,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href=index.html>Home</a>
+                <a class="navbar-brand topnav" href="index.html">Home</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right"><li><a href="/people.html">People</a></li>
+                <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="research.html">About</a>
                     </li>
@@ -66,12 +66,31 @@
 
     <!-- Header -->
     <a name="about"></a>
-    <div class="contact-header"> 
+    <div class="intro-header">
         <div class="container">
+
             <div class="row">
                 <div class="col-lg-12">
-                        <h1>Contact Us!</h1>
-        	</div>
+                    <div class="intro-message">
+                        <h1>The Cooper Lab</h1>
+                        <h3>The University of Pittsburgh</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="research.html" class="btn btn-default btn-lg"><span>Research</span></a>
+                            </li>
+                            <li>
+                                <a href="people.html" class="btn btn-default btn-lg"><span>Meet Us</span></a>
+                            </li>
+			    <li>
+                                <a href="careers.html" class="btn btn-default btn-lg"><span>Join Us</span></a>
+			    </li>
+                            <li>
+                                <a href="http://evolvingstem.org" class="btn btn-default btn-lg"><span>Evolving STEM</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -80,21 +99,47 @@
     </div>
     <!-- /.intro-header -->
 
+    <!-- Page Content -->
+
+	<a  name="services"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Our Mission:</h2>
+                    <p class="lead">We seek to translate evolutionary biology to improve human health, reveal the origins of biodiversity and empower K-12 education!  Click <a href="research.html"> here </a> to learn more about our research! </p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/transfer.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
     <div class="content-section-b">
 
         <div class="container">
 
             <div class="row">
-                <div class="col-md-4">
-                    <img class="img-responsive" src="img/package.png" alt="">
-                </div>
-
-                <div class="col-lg-8">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading"><center>Please Ship To:</center></h2>
-                    <p><font size="4"><center>Dan Snyder<br>450 Technology Drive, Suite 434<br>Pittsburgh PA, 15219</center></font></p>
+                    <h2 class="section-heading">Center for Evolutionary Genomics Research</h2>
+                    <p class="lead">We offer high-throughput sequencing services on Illumina's NextSeq 500 platform.<break>
+		    In addition to this, we offer custom bioinformatic services to suit any of your microbial genetics' needs.<break>  Click <a href="sequencing.html">here</a> to learn more about the services we offer!</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/nextseq.png" alt="">
                 </div>
             </div>
+
         </div>
         <!-- /.container -->
 
@@ -106,25 +151,26 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-md-4">
-                    <img class="img-responsive" src="img/email.png" alt="">
-                </div>
-
-                <div class="col-lg-8">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading"><center>Email:</center></h2>
-                    <p><font size="4"><center>Dr. Vaughn Cooper, PI &nbsp;-&nbsp;vaughn.cooper@pitt.edu
-
-		    </font></p>
+		    <img class="img-responsive" src="img/evolvingstem.png" alt="">
+                    <p class="lead">
+		    The best way to learn and encourage excitement in young people about science is through a hands-on approach. 
+		    The evolving stem program provides a ready-to-implement hands-on curriculum for high schoolers to learn evolution and get excited 
+		    about science!
+     		    </p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+		<br><br><br>
+		<img class="img-responsive center-block" src="img/class.png" alt="">
                 </div>
             </div>
+
         </div>
         <!-- /.container -->
-
     </div>
-    <!-- /.content-section-a -->
-
-
+    <!-- /.banner -->
 
     <!-- Footer -->
     <footer>
@@ -145,7 +191,7 @@
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="contact.html">Contact</a>
+                            <a href="/contact.html">Contact</a>
                         </li>
                     </ul>
                     <p class="copyright text-muted small">Copyright &copy; The Cooper Lab, University of Pittsburgh, 2017. All Rights Reserved</p>
@@ -154,5 +200,12 @@
         </div>
     </footer>
 
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
+
 </html>
