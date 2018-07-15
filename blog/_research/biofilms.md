@@ -2,12 +2,11 @@
 layout: page
 title: Biofilms and the origins of multicellularity
 categories: research
+image: /images/res.png
+image_caption: Biofilm Under a Confocal Lens
 ---
 
 Check out our [MicroSeminar](https://microseminar.wordpress.com/) video here on [YouTube](https://www.youtube.com/watch?v=aJp6-PTpKvA). We are focused on how bacteria form complex communities within biofilms and how individual cells perceive cues to attach or disperse. We have learned that adaptation involves a sequence of mutations in predictable targets that leads to diversification into ecologically differentiated subpopulations. Often, these subpopulations interact synergistically, with certain types affecting host response and others enhancing resistance. In addition, we now routinely sequence the genomes of hundreds of bacterial isolates from longitudinal samples to define evolutionary forces affecting the courses of infection and the driver mutations, whose functions we work to experimentally identify. This work is supported by the NIH. Studying how different bacterial strains or species coexist and interact when bound together on a surface allows us to explore the origins of multicellular life. We are proud to be part of a [NASA Astrobiology Institute](https://astrobiology.nasa.gov/nai/teams/can-7/umt/) that uses experimental evolution to pursue the goal. 
-
-![Biofilm Under a Confocal Lens]({{ "/images/res.png" | absolute_url }})
-Biofilm Under a Confocal Lens
 
 Interested? Check out the following publications:
 

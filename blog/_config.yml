@@ -34,6 +34,7 @@ email: vscooper@gmail.com
 # Build settings
 markdown: kramdown
 theme: minima
+
 plugins:
   - jekyll-feed
 
@@ -45,13 +46,20 @@ collections:
   research:
     output: true
   people:
+    title: people
     output: true
 
 defaults:
   - scope:
-      path: "images"
+      path: images
     values:
       image: true
+  - scope:
+      path: ""
+      type: people
+    values:
+      layout: page
+
 #{% for themes in site.research %}
 #  {{ themes.title }}
 #  {{ themes.content | truncate: 160 }}

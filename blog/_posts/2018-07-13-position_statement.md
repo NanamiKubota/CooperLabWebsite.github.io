@@ -1,6 +1,7 @@
 ---
-layout: default
-title: Position Statement
+layout: post
+title: ASM Statement
+date:   2018-07-13 12:00:00 -0400
 ---
 # Position Statement
 

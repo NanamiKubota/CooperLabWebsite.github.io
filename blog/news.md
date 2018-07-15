@@ -1,5 +1,5 @@
 ---
-layout: default
-title: News
+layout: collection
+title: news
 ---
 

@@ -1,15 +1,11 @@
 ---
 layout: page
 title: "Why genome regions evolve at different rates"
-categories: news
-#permalink: news.html
+image: images/mut_rates.png
+image_caption: Overall base-substitution and indel mutation rates from the origion of replication oriC in B. cenocepacia
 ---
 
 In bacterial genomes with multiple chromosomes, smaller, secondary chromosomes evolve more rapidly. Intra-genome variation in the rates and spectra of mutations could provide a mechanism by which selection acts on genome organization to influence both the origin of genetic variation as well as its fate. We use mutation-accumulation experiments (MA) paired with whole-genome-sequencing (WGS) to capture the mutational process of various bacterial species with unprecedented resolution. We are exploring the root causes of this variation as it may bear on variation in genome stability in all organisms. 
-
-![mutation_rates]({{ "images/mut_rates.png" | absolute_url }})
-
-Overall base-substitution and indel mutation rates from the origion of replication oriC in B. cenocepacia
 
 Interested? Check out the following publications:
 

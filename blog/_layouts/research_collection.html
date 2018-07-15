@@ -1,0 +1,33 @@
+--- 
+layout: default 
+---
+
+{{page.content | markdownify}}
+
+<section id="services">
+    <!-- Page Content -->
+    {% for research in site.research %}
+    
+
+        <div class="row">
+
+            <div class="col-lg-9 col-md-9">
+                <div class="clearfix visible-xs"></div>
+                <div class="clearfix"></div>
+                <h2 class="section-heading">
+                    <center>{{research.title}}:</center>
+                </h2>
+                <p class="lead">
+                    {{research.content | markdownify}}
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="clearfix visible-xs"></div>
+                <img class="img-responsive" src={{research.image}} alt={{research.image_caption}}><br>
+            </div>
+        </div>
+    <!-- /.content-section-b -->
+    {% endfor %}
+
+
+</section>

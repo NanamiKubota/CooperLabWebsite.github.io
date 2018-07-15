@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: research_collection
 title: Research
 ---
-
 As a lab we seek to answer the following questions:
 
 1. [Can we predict microbial evolution during host association or towards drug resistance?](/research/host_adaption.html)

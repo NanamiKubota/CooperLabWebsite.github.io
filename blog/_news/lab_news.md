@@ -13,5 +13,5 @@ We are thrilled by a new NSF award "Role of tRNA base modifications in genetic c
 The Cooper Lab would like to extend a thank you to Elaine Vitone who wrote a feature, Untangling Darwin, focused on the lab’s research in the University of Pittsburgh’s PITTMED magazine. Vitone’s feature can be accessed on PITTMED’s webpage or as a PDF.
 
 # Michelle's T32 Award
-![m]({{ "/images/scribnerm.jpeg" | absolute_url }})
+![m]({{ "/images/scribner.jpeg" | absolute_url }})
 Michelle was recently awarded a Prestigious trainee position on the Molecular Microbial Persistence and Pathogenesis National Institute of Health T32 Institutional Training Grant. This training program provides interdisciplinary instruction in microbial persistence and pathogenesis. The training grant brings together researchers studying a diverse set of both viral and bacterial pathogens to promote an appreciation for both the diversity and common themes of microbial persistence. You can learn more about her award here.
