@@ -1,6 +1,6 @@
 ---
-layout: people_collection
-title: People
+layout: collection
+title: people
 ---
 Who We Are
 

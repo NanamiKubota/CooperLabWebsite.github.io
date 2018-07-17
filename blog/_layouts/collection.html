@@ -2,66 +2,13 @@
 layout: default 
 ---
 {{page.content | markdownify}}
----
-title: Vaughn Cooper, Ph.D
-position: Principal Investigator
-layout: people
-cv: https://docs.google.com/document/d/1LUEJevxmjDihf8WJALm0sT2x9GLfLq43CGAdpk9QjXs/preview
-contact: vaughn.cooper@pitt.edu
-publications: http://micropopbio.org/pubs/cooper.html
-image: /images/cooper.jpeg
----
 
+{% for collection in site.collections %} 
+    {% if collection.title == page.title %} 
+        {% for post in collection.docs%}
+            {{post.path}}
+            {{post.output}}
+        {% endfor %} 
+    {% endif %} 
+{% endfor %}
 
-
-<section id="services">
-    <!-- Page Content -->
-    {% for collection in site.collections %} {% if collection.title == page.title %} {% for post in collection.docs%} {% capture thecycle %} {% cycle 'odd', 'even' %} {% endcapture %} {% if thecycle == 'odd' %}
-    
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ post.title }}</h2>
-                    <div class="lead">{{ post.content | render}}</div>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src={{post.image}} alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-    {% else %}
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ post.title }}</h2>
-                    <div class="lead">{{ post.content | markdownify}}</div>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src={{post.image}} alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-    {% endif %} {% endfor %} {% endif %} {% endfor %}
-
-
-</section>
