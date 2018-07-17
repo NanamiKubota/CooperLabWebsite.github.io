@@ -1,5 +1,5 @@
 ---
-layout: research_collection
+layout: collection
 title: Research
 ---
 As a lab we seek to answer the following questions:

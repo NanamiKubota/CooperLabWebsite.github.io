@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: research
 title: EvolvingSTEM
 image: /images/stem_learning.png
 image_caption: EvolvingSTEM

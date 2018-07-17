@@ -44,9 +44,13 @@ collections:
     title: News
     background_image_url: /assets/P1070812-H800.JPG
   research:
+    title: Research
     output: true
   people:
-    title: people
+    title: People
+    output: true
+  alumni:
+    title: Alumni
     output: true
 
 defaults:

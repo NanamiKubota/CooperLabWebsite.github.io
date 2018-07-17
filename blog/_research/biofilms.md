@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: research
 title: Biofilms and the origins of multicellularity
 categories: research
 image: /images/res.png

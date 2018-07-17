@@ -1,5 +1,5 @@
 ---
 layout: collection
-title: news
+title: News
 ---
 

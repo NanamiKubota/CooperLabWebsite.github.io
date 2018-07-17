@@ -1,14 +1,23 @@
 --- 
-layout: default 
----
-{{page.content | markdownify}}
 
-{% for collection in site.collections %} 
-    {% if collection.title == page.title %} 
-        {% for post in collection.docs%}
-            {{post.path}}
-            {{post.output}}
-        {% endfor %} 
-    {% endif %} 
-{% endfor %}
+---
+
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	<body>
+		{% include header.html %}
+        {{page.content | markdownify}}
+        {% for collection in site.collections %} 
+            {% if collection.title == page.title %} 
+                {% for post in collection.docs%}
+                    {{post.output}}
+                {% endfor %} 
+            {% endif %} 
+        {% endfor %}
+
+	</body>
+</html>
+
+
 

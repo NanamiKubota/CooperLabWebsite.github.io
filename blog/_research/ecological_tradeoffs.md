@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: research
 title: "Ecological Tradeoffs"
 categories: research
 image: /images/cluster.png

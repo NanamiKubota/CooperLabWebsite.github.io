@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: research
 title: Host adaptation and the evolution of antimicrobial resistance
 categories: research
 image: /images/squid.png
