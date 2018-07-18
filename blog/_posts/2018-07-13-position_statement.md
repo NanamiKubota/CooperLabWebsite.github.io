@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ASM Statement
+title: "ASM COMS: outreach and greater transparency"
 date:   2018-07-13 12:00:00 -0400
 ---
 # Position Statement
@@ -28,7 +28,7 @@ My vision is to encourage and support education, research, outreach, and scienti
 - We learned a lot at that successful retreat
     - We draw from several academic communities comprising research and researchers for whom ASM is not HOME (e.g. ASV, ISME)
     - That feeling of a lack of representation means that many aren't in the habit of presenting their best work here at Microbe 
-    - Some of us feel disenfranchised by the loss of satellite meetings (e.g. the ASM Experimental Microbial Evolution meeting in 2014 and 2016 (link) )
+    - Some of us feel disenfranchised by the loss of satellite meetings (e.g. [the ASM Experimental Microbial Evolution meeting in 2014 and 2016](https://www.asm.org/index.php/asm-conferences-resources/past-conferences/item/6197-conference-scope-eme-2))
     - Some of us feel that ASM journals don't provide a venue for our best work, and that the Editorial Boards do not represent leaders in our particular disciplines
 - Yet there are tremendous opportunities for both grassroots and formal community-building
     - Witness the casual get-together for the EEB group at a local pub here Friday
