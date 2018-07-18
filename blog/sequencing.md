@@ -1,8 +1,8 @@
 ---
-layout: default
-img: ipad.png
-category: Services
-title: Sequencing
+layout: page
+header: dna-header
+title: The Microbial Evolution Sequencing Hub
+subtitle: (MESH)
 ---
 
 We offer sequencing services on an Illumina NextSeq 500 sequencer as well as bioinformatics analyses.
