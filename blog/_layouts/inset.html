@@ -1,34 +1,22 @@
-
 <!DOCTYPE html>
 <html>
 	{% include head.html %}
+
 	<body>
-		{% include header.html %}
-        {{page.content | markdownify}}
-        {% for collection in site.collections %} 
+        <div class="content-section-b">
+            <center>{{page.content | markdownify}}</center>
+        </div>
         
-            {%assign page_name_list = page.name | split: "." %}
-            {%assign page_name = page_name_list.first | capitalize%}
-        
-            {% if collection.title == page.title %} 
-                {% assign iscollection = true %}
-            {%elsif collection.title == page_name %}
-                {% assign iscollection = true %}
-            {%else%}
-                {% assign iscollection = false%}
-            {%endif%}
-        
-            {% if iscollection == true %}
-                {% for post in collection.docs%}
-                {% capture thecycle %}{% cycle 'a', 'b' %}{% endcapture %}
+        {% for post in page.sections%}
+        {% capture thecycle %}{% cycle 'a', 'b' %}{% endcapture %}
                 <div class="content-section-{{thecycle}}">
                     <div class="container">
                         <div class="row">
                             <div class="clearfix"></div>
                             {% if post.image%}
 
-                            <div class="col-md-2 col-sm-pull-2">
-                                <img class="img-responsive" src={{post.image}} alt=""><br>
+                            <div class="col-md-2">
+                                <img class="image-responsive" src={{post.image}} alt=""><br>
                             </div>
                             <div class="col-md-6 col-md-offset-2">
                                 <h2 class="section-heading">
@@ -37,10 +25,7 @@
                                 <h2 class="section-heading">
                                     <center>{{post.subtitle}}</center>
                                 </h2>
-                                <p class="lead">
                                 {{post.content | markdownify}}
-                                </p>
-                                
                             </div>
 
                             {%else%}
@@ -52,20 +37,14 @@
                                 <h2 class="section-heading">
                                     <center>{{post.subtitle}}</center>
                                 </h2>
-                                <p class="lead">
                                 {{post.content | markdownify}}
-                                </p>
-                                
                             </div>
                             {%endif%}
                         </div>
                     </div>
                 </div>
-                {% endfor %}
-            {%else%}
-            {% endif %} 
+        {%endfor%}
         
-        {% endfor %}
-
+		{% include js.html %}
 	</body>
 </html>

@@ -5,3 +5,8 @@
 layout: home
 title: "The Cooper Lab"
 ---
+
+
+{% for member in site.pages %}
+    {{member.title}}
+{%endfor%}

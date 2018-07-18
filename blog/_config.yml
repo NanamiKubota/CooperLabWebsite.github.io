@@ -52,6 +52,9 @@ collections:
   alumni:
     title: Alumni
     output: true
+  home_content:
+    title: home_content
+    output: true
 
 defaults:
   - scope:

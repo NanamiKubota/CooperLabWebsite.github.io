@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Contact
 ---
 
@@ -15,8 +15,6 @@ Pittsburgh PA, 15219
 
 # Email
 
-
 {% for person in site.people %}
-[{{person.title}}](mailto:{{person.contact}})
+    [{{person.title}}](mailto:{{person.contact}})
 {%endfor%}
-

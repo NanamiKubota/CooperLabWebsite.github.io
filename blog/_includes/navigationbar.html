@@ -15,15 +15,20 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 {% for collection in site.collections %}
-                <li>
-                    <a class="page-scroll" href="{{site.baseurl}}/{{collection.title|downcase}}.html">{{collection.title}}</a>
-                </li>
+                {% if collection.title%}
+                    <li>
+                        <a class="page-scroll" href="{{site.baseurl}}/{{collection.title|downcase}}.html">{{collection.title}}</a>
+                    </li>
+                {%endif %}
                 {% endfor %}
                 <li>
                     <a class="page-scroll" href="{{site.baseurl}}/sequencing.html">Sequencing</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="{{site.url}}">Blog</a>    
+                </li>
+                <li>
+                    <a class="page-scroll" href="{{site.url}}/contact.html">Contact</a>    
                 </li>
             </ul>
         </div>
