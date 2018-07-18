@@ -4,7 +4,10 @@
 
 	<body>
 		{% include page_header.html %}
-        {{page.content | markdownify}}
+        <div class="content-section-b">
+            <center>{{page.content | markdownify}}</center>
+        </div>
+        
 		{% include js.html %}
 	</body>
 </html>

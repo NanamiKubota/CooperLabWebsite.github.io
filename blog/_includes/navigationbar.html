@@ -16,11 +16,14 @@
             <ul class="nav navbar-nav navbar-right">
                 {% for collection in site.collections %}
                 <li>
-                    <a class="page-scroll" href={{site.baseurl}}/{{collection.title|downcase}}.html>{{collection.title}}</a>
+                    <a class="page-scroll" href="{{site.baseurl}}/{{collection.title|downcase}}.html">{{collection.title}}</a>
                 </li>
                 {% endfor %}
                 <li>
-                    <a class="page-scroll" href={{site.baseurl}}/sequencing.html>Sequencing</a>
+                    <a class="page-scroll" href="{{site.baseurl}}/sequencing.html">Sequencing</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{{site.url}}">Blog</a>    
                 </li>
             </ul>
         </div>

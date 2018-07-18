@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: group
 title: Research
 ---
 As a lab we seek to answer the following questions:
