@@ -34,6 +34,31 @@ h6 {
     background: url(../images/muller.png) no-repeat center center;
     background-size: cover;
 }
+.page-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    background: url(../images/burk-fm.gif) no-repeat center center;
+    background-size: cover;
+}
+.dna-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    background: url(../images/dna.png) no-repeat center center;
+    background-size: cover;
+}
+
+.pgh-header {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    background: url(../images/pgh.jpg) no-repeat center center;
+    background-size: cover;
+}
 
 .intro-message {
     position: relative;
