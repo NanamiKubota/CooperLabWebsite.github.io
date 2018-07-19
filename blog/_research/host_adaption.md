@@ -3,7 +3,9 @@ layout: research
 title: Host adaptation and the evolution of antimicrobial resistance
 categories: research
 image: /images/squid.png
-image_caption: On the left, the dorsal view of a juvenile E. scolopes host. On the right, a schematic illustrating the stages in which host-imposed selection occurs during V. fischeri symbiosis. 
+caption: 
+    On the left, the dorsal view of a juvenile E. scolopes host. On the right, a schematic illustrating the stages in which host-imposed selection occurs during V. fischeri symbiosis. 
+    [Host-selected mutations converging on a global regulator drive an adaptive leap towards symbiosis in bacteria.Pankey,M.S. et al. eLife, 2017](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5466423/pdf/elife-24414.pdf)
 ---
 
 Our laboratory is developing the translational utility of evolutionary inference in medicine using new experimental, genomic and bioinformatic methods. Our focus is the evolution-in-action that occurs during human infections, particularly in the airway of Cystic Fibrosis patients, and we also use laboratory models of this process. We run a [sequencing facility](http://micropopbio.org/sequencing.html) with an Illumina NextSeq and Oxford Nanopore and collaborate with many investigators to identify mutations under positive selection during infections and their functional significance, with a focus on adaptations to antibiotics and to biofilm formation. We also study adaptation by symbionts to animal hosts such as the Hawaiian bobtail squid, nematodes, and the medicinal leech. This work is supported by NIH, NSF, and by Gilead. 

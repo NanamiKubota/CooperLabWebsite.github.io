@@ -33,9 +33,16 @@
                             <div class="clearfix"></div>
                             {% if post.image%}
 
-                            <div class="col-md-2 col-md-offset-2">
+                            <div class="col-md-4">
                                 <img class="img-responsive" src="{{post.image}}" alt=""><br>
+                                {% if post.caption %}
+                                    <p>{{post.caption | markdownify}}</p>
+                                {% endif %}
+                                {% if post.contact%}
+                                    <p><a href="{{post.cv}}">CV</a>|<a href="mailto:{{post.contact}}">Contact</a>|<a href="post.publications">Publications</a></p>
+                                {% endif %}
                             </div>
+                            
                             <div class="col-md-6 col-md-offset-1">
                                 <h2 class="section-heading">
                                     <center>{{post.title}}</center>
@@ -44,7 +51,7 @@
                                     <center>{{post.subtitle}}</center>
                                 </h2>
                                 <p class="lead">
-                                {{post.content | markdownify}}
+                                    {{post.content | markdownify}}
                                 </p>
                                 
                             </div>
