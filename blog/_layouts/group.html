@@ -39,7 +39,19 @@
                                     <p>{{post.caption | markdownify}}</p>
                                 {% endif %}
                                 {% if post.contact%}
-                                    <p><a href="{{post.cv}}">CV</a>|<a href="mailto:{{post.contact}}">Contact</a>|<a href="post.publications">Publications</a></p>
+                                    <p>
+                                        {%if post.cv%}
+                                            <a href="{{post.cv}}">CV</a>
+                                             | 
+                                        {%endif%}
+                                        {%if post.contact%}
+                                            <a href="mailto:{{post.contact}}">Contact</a>
+                                             | 
+                                        {%endif%}
+                                        {%if post.publications%}
+                                            <a href="post.publications">Publications</a>
+                                        {%endif%}
+                                    </p>
                                 {% endif %}
                             </div>
                             
