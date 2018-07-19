@@ -1,9 +1,9 @@
 ---
 layout: research
-title: "Ecological Tradeoffs"
+title: Ecological Tradeoffs
 categories: research
 image: /images/cluster.png
-caption: | 
+caption:
     Fitness Landscapes in a selection environment
     [The Environment Affects Epistatic Interactions to Alter the Topology of an Empirical Fitness Landscape. K.M. Flynn. et al. PLOS Genetics, 2013](http://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1003426&type=printable)
 ---

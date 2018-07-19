@@ -14,8 +14,3 @@ Cooper Laboratory
 
 Pittsburgh PA, 15219
 
-# Email
-
-{% for person in site.people %}
-    [{{person.title}}](mailto:{{person.contact}})
-{%endfor%}
