@@ -3,7 +3,7 @@ layout: post
 title: "ASM COMS: outreach and greater transparency"
 date:   2018-07-13 12:00:00 -0400
 ---
-# Position Statement
+## Position Statement
 
 I’m honored to have been elected Chair of the [Council of Microbial Sciences (COMS)](https://www.asm.org/index.php/about-the-american-society-for-microbiology/council-on-microbial-sciences) of the [American Society of Microbiology](https://www.asm.org/), which includes the representatives of all scientific Divisions and local Branches. Our mission is to "support the work of ASM by prioritizing the scientific focus of the Society and identifying upcoming opportunities in microbial sciences and scientific trends to ensure effective programs and scientific activities that benefit the members and the scientific community at large." My goals are to increase transparency, broaden engagement and support community-building in our focus areas.  I am thrilled to be a "brand ambassador" for ASM and look forward to serving the field of microbiology with a focus on education and outreach.
 
