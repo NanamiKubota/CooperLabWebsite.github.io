@@ -1,6 +1,6 @@
 ---
 layout: research
-title: "Why genome regions evolve at different rates"
+title: Why genome regions evolve at different rates
 image: images/mut_rates.png
 caption: 
     Overall base-substitution and indel mutation rates from the origion of replication oriC in B. cenocepacia
