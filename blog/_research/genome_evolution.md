@@ -3,7 +3,7 @@ layout: research
 title: Why genome regions evolve at different rates
 image: images/mut_rates.png
 caption: 
-    Overall base-substitution and indel mutation rates from the origion of replication oriC in B. cenocepacia
+    Overall base-substitution and indel mutation rates from the origion of replication oriC in B. cenocepacia. 
     [The rate and molecular spectrum of spontaneous mutations in the GC-Rich multichromosome genome of Burkholderia cenocepacia. M.M. Dillon, et al. Genetics, 2015](http://www.genetics.org/content/genetics/200/3/935.full.pdf)
 ---
 
