@@ -1,7 +1,7 @@
 ---
 title: Eisha Mhatre, Ph.D
 position: Postdoctoral Associate
-layout: people
+layout: default
 contact: emhatre@pitt.edu
 publications: http://micropopbio.org/pubs/mhatre.html
 image: /images/mhatre.png

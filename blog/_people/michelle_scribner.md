@@ -1,7 +1,7 @@
 ---
 title: Michelle Scribner
 position: Ph.D Student
-layout: people
+layout: default
 contact: mrs186@pitt.edu
 publications: http://micropopbio.org/pubs/scibner.html
 image: /images/scribner.jpeg

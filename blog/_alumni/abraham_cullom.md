@@ -1,7 +1,7 @@
 ---
 title: Abraham Cullom
 position: Undergraduate Researcher
-layout: people
+layout: default
 contact: acc69@pitt.edu
 publications: http://micropopbio.org/pubs/cullom.html
 image: /images/cullom.png

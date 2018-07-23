@@ -1,7 +1,7 @@
 ---
 title: Dan Snyder, M.Sc
 position: Senior Research Specialist
-layout: people
+layout: default
 contact: snyde236@gmail.com
 publications: http://micropopbio.org/pubs/snyder.html
 image: /images/snyder.png

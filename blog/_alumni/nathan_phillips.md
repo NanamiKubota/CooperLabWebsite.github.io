@@ -1,7 +1,7 @@
 ---
 title: Nathan Philips
 position: Bioinformatics Research Assistant
-layout: people
+layout: default
 contact: njp42@pitt.edu
 publications: http://micropopbio.org/pubs/phillips.html
 image: /images/phillips.png

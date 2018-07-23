@@ -1,7 +1,7 @@
 ---
 title: Vaughn Cooper, Ph.D
 position: Principal Investigator
-layout: people
+layout: default
 cv: https://docs.google.com/document/d/1LUEJevxmjDihf8WJALm0sT2x9GLfLq43CGAdpk9QjXs/preview
 contact: vaughn.cooper@pitt.edu
 publications: http://micropopbio.org/pubs/cooper.html

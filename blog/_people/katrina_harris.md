@@ -1,7 +1,7 @@
 ---
 title: Katrina Harris, B.Sc
 position: Ph.D Candidate
-layout: people
+layout: default
 contact: katrina.harris@pitt.edu
 publications: http://micropopbio.org/pubs/harris.html
 image: /images/kat.jpg

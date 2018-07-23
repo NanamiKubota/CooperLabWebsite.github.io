@@ -1,7 +1,7 @@
 ---
 title: Chris Marshall, Ph.D
 position: Research Assistant Professor
-layout: people
+layout: default
 image: /images/marshall.png
 contact: chris.w.marshall@gmail
 publications: http://micropopbio.org/pubs/marshall.html

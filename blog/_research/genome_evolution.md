@@ -1,5 +1,5 @@
 ---
-layout: research
+layout: default
 title: Why genome regions evolve at different rates
 image: images/mut_rates.png
 caption: 

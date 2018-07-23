@@ -1,7 +1,7 @@
 ---
 title: Emily Sileo, B.Sc
 position: Research Technician
-layout: people
+layout: default
 contact: ems249@pitt.edu
 publications: http://micropopbio.org/pubs/sileo.html
 image: /images/sileo.png

@@ -1,7 +1,7 @@
 ---
 title: Caroline Turner, Ph.D
 position: NASA Postdoctoral Fellow
-layout: people
+layout: default
 contact: cbt12@pitt.edu
 publications: http://micropopbio.org/pubs/turner.html
 image: /images/turner.jpeg.jpg
