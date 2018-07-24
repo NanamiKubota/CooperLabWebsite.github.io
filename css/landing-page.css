@@ -1,7 +1,7 @@
-/*
- * Start Bootstrap - Landing Page (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
 body,
@@ -21,43 +21,6 @@ h6 {
     font-weight: 700;
 }
 
-h7 {
-    font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;
-    font-weight: 700; word-wrap: break-word; font-size: 150%
-}
-
-h8 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 500;
-}
-
-h9 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    font-style: bold;
-}
-
-h10 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 500;
-    font-size: 17px;
-    font-style: bold;
-}
-
-a.nounderline {
-    text-decoration: none; ;
-}
-
-ul.research_questions {
-    list-style-position: inside;
-    margin-left: 100px;
-}
-
-.topnav {
-    font-size: 14px; 
-}
-
 .lead {
     font-size: 18px;
     font-weight: 400;
@@ -67,62 +30,60 @@ ul.research_questions {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    color: white;
-    background: url(/img/muller.jpg) no-repeat center center;
+    color: #f8f8f8;
+    background: url(../images/muller.png) no-repeat center center;
     background-size: cover;
 }
-
-.dna-header {
-    padding-top: 50px;
+.page-header {
+    padding-top: 5px;
     padding-bottom: 50px;
     text-align: center;
     color: white;
-    background: url(/img/dna.png) no-repeat center center;
+    background: url(../images/burk-fm.gif) no-repeat center center;
+    background-size: cover;
+}
+.dna-header {
+    padding-top: 5px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    background: url(../images/dna.png) no-repeat center center;
     background-size: cover;
 }
 
 .pgh-header {
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 5px;
+    padding-bottom: 1px;
     text-align: center;
     color: white;
-    background: url(/img/pgh.jpg) no-repeat center center;
-    background-size: cover;
-}
-
-.books-header {
-    padding-top: 40px;
-    padding-bottom: 170px;
-    text-align: center;
-    color: white;
-    background: url(/img/spines.png) no-repeat center center;
+    background: url(/images/pgh.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .contact-header {
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 5px;
+    padding-bottom: 1px;
     text-align: center;
     color: white;
-    background: url(/img/contact.png) no-repeat center center;
+    background: url(/images/contact.png) no-repeat center center;
     background-size: cover;
 }
 
 .research-header {
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 5px;
+    padding-bottom: 1px;
     text-align: center;
     color: #fbfcfc;
-    background: url(/img/notebook.jpg) no-repeat center center;
-    background-size: cover;
+    background: url(/images/notebook.jpg) no-repeat center center;
+    background-size: auto;
 }
 
 .news-header {
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 5px;
+    padding-bottom: 1px;
     text-align: center;
     color: #fbfcfc;
-    background: url(/img/news.png) no-repeat center center;
+    background: url(/images/news.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -140,7 +101,7 @@ ul.research_questions {
 
 .intro-divider {
     width: 400px;
-    border-top: 1px solid #ededed;
+    border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
@@ -148,7 +109,7 @@ ul.research_questions {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
-@media(max-width:765px) {
+@media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
     }
@@ -180,6 +141,7 @@ ul.research_questions {
 }
 
 .content-section-a {
+    padding: 50px 0;
     background-color: #f8f8f8;
 }
 
@@ -187,13 +149,6 @@ ul.research_questions {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
-}
-
-.content-section-c {
-    padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
-    background-color: #f8f8f8;
 }
 
 .section-heading {
@@ -206,14 +161,10 @@ ul.research_questions {
     border-top: 3px solid #e7e7e7;
 }
 
-.spacing-research {
-    width: 200px;
-    border-top: 3px solid #e7e7e7;
-
 .banner {
     padding: 100px 0;
-    color: #ececec;
-    background: url(../img/muller.png) no-repeat center center;
+    color: #f8f8f8;
+    background: url(../images/burk-fm.gif) no-repeat center center;
     background-size: cover;
 }
 
@@ -265,4 +216,3 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
-
