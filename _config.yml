@@ -30,6 +30,7 @@ logo: "images/sm-wrinkly.gif" # 120x120 px default image used for Twitter summar
 #teaser: burk-fm.gif # 400x250 px default teaser image used in image archive grid
 locale: en
 email: vscooper@gmail.com
+permalink: http://micropopbio.org
 
 # Build settings
 markdown: kramdown
