@@ -64,7 +64,8 @@ defaults:
       type: people
     values:
       layout: page
-
+comments:
+  provider: "staticman"
 #{% for themes in site.research %}
 #  {{ themes.title }}
 #  {{ themes.content | truncate: 160 }}

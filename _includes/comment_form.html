@@ -1,0 +1,15 @@
+<div class="container" id="comment">
+    <div class="row">
+        <div class="col-md-12">
+            <form method="POST" action="https://api.staticman.net/v2/entry/CooperLabWebsite/CooperLabWebsite.github.io/master/comments">
+                <input name="options[redirect]" type="hidden" value="https://micropopbio.com">
+                <!-- e.g. "2016-01-02-this-is-a-post" -->
+                <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+                <label>Add Comment<br><textarea name="fields[message]" ></textarea></label>
+                <br>
+                <button type="submit" class="btn btn-default btn-lg">Submit</button>
+            </form>
+
+        </div>
+    </div>
+</div>

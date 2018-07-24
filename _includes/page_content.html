@@ -36,6 +36,7 @@
                 <p class="lead">
                     {{post.content | markdownify}}
                 </p>
+                {% include comment_form.html %}
             </div>
             {%endif%}
         </div>
