@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+
+	<body>
+        <div class="content-section-b">
+            <center>{{page.content | markdownify}}</center>
+        </div>
+        
+        {% for post in page.sections%}
+        {% capture thecycle %}{% cycle 'a', 'b' %}{% endcapture %}
+                <div class="content-section-{{thecycle}}">
+                    <div class="container">
+                        <div class="row">
+                            <div class="clearfix"></div>
+                            {% if post.image%}
+
+                            <div class="col-md-2">
+                                <img class="image-responsive" src={{post.image}} alt=""><br>
+                            </div>
+                            <div class="col-md-6 col-md-offset-2">
+                                <h2 class="section-heading">
+                                    <center>{{post.title}}</center>
+                                </h2>
+                                <h2 class="section-heading">
+                                    <center>{{post.subtitle}}</center>
+                                </h2>
+                                {{post.content | markdownify}}
+                            </div>
+
+                            {%else%}
+
+                            <div class="col-md-8 col-md-offset-2">
+                                <h2 class="section-heading">
+                                    <center>{{post.title}}</center>
+                                </h2>
+                                <h2 class="section-heading">
+                                    <center>{{post.subtitle}}</center>
+                                </h2>
+                                {{post.content | markdownify}}
+                            </div>
+                            {%endif%}
+                        </div>
+                    </div>
+                </div>
+        {%endfor%}
+        
+		{% include js.html %}
+	</body>
+</html>

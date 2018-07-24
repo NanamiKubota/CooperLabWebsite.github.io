@@ -1,0 +1,44 @@
+{%include home_content.html %}
+<section id="services">
+    <!-- Page Content -->
+
+    
+    <div class="container">
+        {% for post in site.posts %}
+
+        <div class="row">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            {% if post.image%}
+            <div class="col-lg-3 col-sm-pull-3  col-sm-3">
+                <img class="image-responsive" src={{post.image}} alt=""><br>
+            </div>
+            <div class="col-md-6 col-md-offset-3">
+                <h2 class="section-heading">
+                    <center>{{post.title}}</center>
+                </h2>
+                <h2 class="section-heading">
+                    <center>{{post.subtitle}}</center>
+                </h2>
+                <p class="lead">
+                    {{post.content | markdownify}}
+                </p>
+
+            </div>
+            {%else%}
+            <div class="col-md-8 col-md-offset-2">
+                <h2 class="section-heading">
+                    <center>{{post.title}}</center>
+                </h2>
+                <h2 class="section-heading">
+                    <center>{{post.subtitle}}</center>
+                </h2>
+                <p class="lead">
+                    {{post.content | markdownify}}
+                </p>
+            </div>
+            {%endif%}
+        </div>
+        {%endfor%}
+    </div>
+</section>
