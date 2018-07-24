@@ -27,11 +27,11 @@ My vision is to encourage and support education, research, outreach, and scienti
 - We learned a lot at that successful retreat
     - We draw from several academic communities comprising research and researchers for whom ASM is not HOME (e.g. ASV, ISME)
     - That feeling of a lack of representation means that many aren't in the habit of presenting their best work here at Microbe 
-    - Some of us feel disenfranchised by the loss of satellite meetings (e.g. the ASM Experimental Microbial Evolution meeting in 2014 and 2016 (link) )
+    - Some of us feel disenfranchised by the loss of satellite meetings (e.g. the [ASM Experimental Microbial Evolution meeting in 2014 and 2016](https://www.asm.org/index.php/asm-conferences-resources/past-conferences/item/6197-conference-scope-eme-2))
     - Some of us feel that ASM journals don't provide a venue for our best work, and that the Editorial Boards do not represent leaders in our particular disciplines
 - Yet there are tremendous opportunities for both grassroots and formal community-building
     - Witness the casual get-together for the EEB group at a local pub here Friday
-    - Witness the newly announced conference grants program to support these initiatives
+    - Witness the soon-to-be announced conference grants program to support these initiatives
     - Witness the remarkable interdisciplinary of several symposia here at Microbe
 - These EEB successes provide a template for community building here. I think these focus group meetings- both at ASM HQ and in other venues - are a great way forward.
 - I would want to attend more of these meetings to learn about the best of what we can anticipate from each community, and what opportunities we can't miss.
