@@ -32,3 +32,6 @@ gem 'jekyll-paginate'
 gem 'jekyll-sass-converter'
 gem 'sass'
 
+source "https://rubygems.org"
+
+gem "github-pages", group: :jekyll_plugins
