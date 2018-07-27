@@ -1,0 +1,12 @@
+{%include home_content.html %}
+<section id="services">
+    <!-- Page Content -->
+
+    
+    <div class="container">
+        {% for post in site.posts %}
+            {% capture thecycle %}{% cycle 'a', 'b' %}{% endcapture %}
+            {% include section.html %}
+        {%endfor%}
+    </div>
+</section>
