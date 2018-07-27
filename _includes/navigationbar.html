@@ -24,16 +24,20 @@
                     {%endif %}
                 {% endfor %}
                 <li>
-                    <a class="page-scroll" href="{{site.baseurl}}/sequencing.html">Sequencing</a>
+                    <a class="page-scroll" href="{{site.basebaseurl}}/sequencing.html">Sequencing</a>
+                </li>
+                
+                <li>
+                    <a class="page-scroll" href="{{site.baseurl}}#{{site.posts.first.title | uri_escape}}">Blog</a>    
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{site.url}}">Blog</a>    
+                    <a class="page-scroll" href="{{site.baseurl}}/alumni.html">Alumni</a>    
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{site.url}}/alumni.html">Alumni</a>    
+                    <a class="page-scroll" href="{{site.baseurl}}/contact.html">Contact</a>    
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{site.url}}/contact.html">Contact</a>    
+                    <a class="page-scroll" href="{{site.baseurl}}/test.html">Test</a>    
                 </li>
             </ul>
         </div>
