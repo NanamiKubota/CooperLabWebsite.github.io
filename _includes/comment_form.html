@@ -1,11 +1,11 @@
 <div class="container" id="comment">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-8 col-md-offset-2">
             <form method="POST" action="https://api.staticman.net/v2/entry/CooperLabWebsite/CooperLabWebsite.github.io/master/comments">
                 <!--<input name="options[redirect]" type="hidden" value="micropopbio.org"> -->
                 <!-- e.g. "2016-01-02-this-is-a-post" -->
                 <input name="options[slug]" type="hidden" value="{{ post.slug }}">
-                <label>Add Comment<br><textarea name="fields[message]" ></textarea></label>
+                <label>Add Comment<br><textarea name="fields[message]" cols=85></textarea></label>
                 <br>
                 <button type="submit" class="btn btn-default btn-lg">Submit</button>
             </form>
