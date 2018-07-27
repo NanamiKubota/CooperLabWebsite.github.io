@@ -21,8 +21,8 @@ comments:
   # (*) REQUIRED
   #
   # Destination path (filename) for the data files. Accepts placeholders.
-  filename: "entry{@timestamp}"
-
+  #filename: "entry{@timestamp}"
+  filename: "{@date:YYYY-MM-DD}-{fields.title}"
   # The format of the generated data files. Accepted values are "json", "yaml"
   # or "frontmatter"
   format: "yaml"
@@ -32,8 +32,13 @@ comments:
   # with a `type` property, which configures the generated field, or any value
   # to be used directly (e.g. a string, number or array)
   generatedFields:
-    title: "{@options.title}"
-    name:  "{@options.name}"
+    otitle: "{@options.title}"
+    oname:  "{options.name}"
+    ftitle: "@fields.title"
+    fname: "@fields.name"
+    fftitle: "{fields.title}"
+    ffname: "@{fields.name}"
+    slug: "{options.slug}"
     date:
       type: date
       options:
