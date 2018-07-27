@@ -5,9 +5,9 @@
                 <!--<input name="options[redirect]" type="hidden" value="micropopbio.org"> -->
                 <!-- e.g. "2016-01-02-this-is-a-post" -->
                 <input name="options[slug]" type="hidden" value="{{ post.slug }}">
-                <input name="postTitle" type="hidden" value="{{post.title}}">
                 <label>Add Comment<br><textarea name="fields[message]" ></textarea></label>
                 <br>
+                <textarea name="fields[postTitle]" type="hidden">{{post.title}}</textarea>
                 <button type="submit" class="btn btn-default btn-lg">Submit</button>
             </form>
 
