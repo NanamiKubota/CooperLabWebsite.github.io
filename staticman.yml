@@ -32,13 +32,8 @@ comments:
   # with a `type` property, which configures the generated field, or any value
   # to be used directly (e.g. a string, number or array)
   generatedFields:
-    otitle: "{@options.title}"
-    oname:  "{options.name}"
-    ftitle: "@fields.title"
-    fname: "@fields.name"
-    fftitle: "{fields.title}"
-    ffname: "@{fields.name}"
-    slug: "{options.slug}"
+    name: "{fields.name}"
+    title: "{fields.title}"
     date:
       type: date
       options:
