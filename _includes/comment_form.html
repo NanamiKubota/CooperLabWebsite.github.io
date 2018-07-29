@@ -5,11 +5,12 @@
             <form method="POST" action="https://api.staticman.net/v2/entry/CooperLabWebsite/CooperLabWebsite.github.io/master/comments">
                 <!--<input name="options[redirect]" type="hidden" value="micropopbio.org"> -->
                 <!-- e.g. "2016-01-02-this-is-a-post" -->
+                <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
                 <input name="options[slug]" type="hidden" value="{{ post.slug }}">
-                <input name="fields[name]" type="hidden" placeholder="{{post.name}}">
-                <input name="fields[title]" type="hidden" placeholder="{{post.title}}">
+                <input name="options[name]" type="hidden" placeholder="{{include.title }}">
+                <input name="options[title]" type="hidden" placeholder="{{include.name}}">
                 <label>Add Comment<br><textarea name="fields[message]" cols=85></textarea></label>
-                <br>
+                <br> 
                 <button type="submit" class="btn btn-default btn-lg">Submit</button>
             </form>
 
