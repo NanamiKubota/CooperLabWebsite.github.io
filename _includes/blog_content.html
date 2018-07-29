@@ -7,8 +7,6 @@
         {% for post in site.posts %}
             {% capture thecycle %}{% cycle 'a', 'b' %}{% endcapture %}
             {% include section.html %}
-            {% include comment_form.html %}
-            {% include section_comments.html %}
         {%endfor%}
     </div>
 </section>
