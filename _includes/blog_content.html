@@ -7,7 +7,9 @@
         {% for post in site.posts %}
             {% capture thecycle %}{% cycle 'a', 'b' %}{% endcapture %}
             {% include section.html %}
-            {% include comment_form.html %}
+            {% assign page_title = post.title %}
+            {% assign page_title = post.name %}
+            {% include comment_form.html title=page_title name=page_name%}
             {% include section_comments.html %}
         {%endfor%}
     </div>
