@@ -3,6 +3,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <form method="POST" action="https://api.staticman.net/v2/entry/CooperLabWebsite/CooperLabWebsite.github.io/master/comments">
+                <input type="hidden" name="options[redirect]" value="http://micropopbio.org">
                 <input name="options[slug]" type="hidden" value="{{ post.slug }}">
                 <input name="fields[title]" type="hidden" value="{{post.title}}">
                 <input name="fields[path]" type="hidden" value="{{post.path}}">
