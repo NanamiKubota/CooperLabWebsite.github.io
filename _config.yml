@@ -31,7 +31,7 @@ logo: "images/sm-wrinkly.gif" # 120x120 px default image used for Twitter summar
 locale: en
 email: vscooper@gmail.com
 permalink: http://micropopbio.org
-baseurl: cooperlabwebsite.github.io
+#baseurl: cooperlabwebsite.github.io
 # Build settings
 markdown: kramdown
 theme: minima
