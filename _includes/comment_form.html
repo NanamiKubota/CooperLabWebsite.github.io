@@ -3,10 +3,8 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <form method="POST" action="https://api.staticman.net/v2/entry/CooperLabWebsite/CooperLabWebsite.github.io/master/comments">
-
+                <input name="options[redirect]" type="hidden" value="{{site.baseurl}}#{{post.title | uri_escape}}">
                 <input name="options[slug]" type="hidden" value="{{ post.slug }}">
-                <input name="options[title]" type="hidden" value="{{post.title}}">
-                <input name="options[path]" type="hidden" value="{{post.path}}">
                 <input name="fields[title]" type="hidden" value="{{post.title}}">
                 <input name="fields[path]" type="hidden" value="{{post.path}}">
                 <label>Add Comment<br><textarea name="fields[message]" cols=85></textarea></label>
