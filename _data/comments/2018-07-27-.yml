@@ -1,0 +1,10 @@
+_id: 443598c0-91ed-11e8-a7c9-2bc12d08a56c
+message: 'anothertest 6:34'
+otitle: '{@options.title}'
+oname: '{options.name}'
+ftitle: '@fields.title'
+fname: '@fields.name'
+fftitle: '{fields.title}'
+ffname: '@{fields.name}'
+slug: '{options.slug}'
+date: 1532730887
