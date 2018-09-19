@@ -8,7 +8,7 @@
                 <input name="fields[title]" type="hidden" value="{{post.title}}">
                 <input name="fields[path]" type="hidden" value="{{post.path}}">
                 <label>Add Comment<br>
-                    <textarea id = "commentform" oninput="checkcommentvalid" name="fields[message]" cols=85></textarea></label>
+                    <textarea id = "commentform" oninput="checkcommentvalid()" name="fields[message]" cols=85></textarea></label>
                 <br> 
                 <button type="submit" id="submitbutton" class="btn btn-default btn-lg">Submit</button>
             </form>
