@@ -7,12 +7,24 @@
                 <input name="options[slug]" type="hidden" value="{{ post.slug }}">
                 <input name="fields[title]" type="hidden" value="{{post.title}}">
                 <input name="fields[path]" type="hidden" value="{{post.path}}">
-                <label>Add Comment<br><textarea name="fields[message]" cols=85></textarea></label>
+                <label>Add Comment<br>
+                    <textarea id = "commentform" oninput="checkcommentvalid" name="fields[message]" cols=85></textarea></label>
                 <br> 
-                <button type="submit" class="btn btn-default btn-lg">Submit</button>
+                <button type="submit" id="submitbutton" class="btn btn-default btn-lg">Submit</button>
             </form>
 
         </div>
     </div>
 </div>
 </div>
+
+<script>
+function checkcommentvalid() {
+    //var x = document.getElementById("myInput").value;
+    //document.getElementById("demo").innerHTML = "You wrote: " + x;
+    
+    var comment_content = document.getElementById("commentform").value;
+    var isspam = comment_content.search("a href="); //Check if the comment has html links.
+    document.getElementById("submitbutton").disabled = isspam > 0;
+}
+</script>
