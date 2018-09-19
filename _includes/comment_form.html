@@ -3,7 +3,7 @@
 <div class="container" id="comment">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <form method="POST" id="commentform" action="https://api.staticman.net/v2/entry/CooperLabWebsite/CooperLabWebsite.github.io/master/comments">
+            <form method="POST" id="commentform" >
                 <input type="hidden" name="options[redirect]" value="http://micropopbio.org">
                 <input name="options[slug]" type="hidden" value="{{ post.slug }}">
                 <input name="fields[title]" type="hidden" value="{{post.title}}">
@@ -33,6 +33,6 @@ function checkcommentvalid() {
     else{
     	document.getElementById("commentform").action = link;
     }
-    document.getElementById("demo").innerHTML = document.getElementById("commentform").action
+    document.getElementById("demo").innerHTML = document.getElementById("commentform").action;
 }
 </script>
