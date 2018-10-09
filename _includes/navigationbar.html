@@ -16,7 +16,8 @@
             <ul class="nav navbar-nav navbar-right">
                 {% for collection in site.collections %}
                     {% if collection.title %}
-                        {% if collection.title != Alumni%}
+                        {% if collection.title contains 'lumni' %}
+                        {% else %}
                         <li>
                             <a class="page-scroll" href="{{site.baseurl}}/{{collection.title|downcase}}.html">{{collection.title}}</a>
                         </li>
