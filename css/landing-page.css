@@ -236,3 +236,12 @@ background-color: #f8f8f8;
 }
 .comment-section-b{
 }
+.table-row {
+    vertical-align: middle;
+    horizontal-align: left;
+    padding: 10px;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}
