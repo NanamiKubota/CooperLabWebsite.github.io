@@ -11,7 +11,22 @@ subtitle: (MiGS)
 
 ### [Email Dr. Cooper and Dan Snyder](mailto:vaughn.cooper@pitt.edu?subject=Sequencing%20Services&cc=snyde236@gmail.com)
 
+#### Mission
+<container>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+            <p align="left">
+                The mission of the Microbial Genomic Sequencing center (MIGS) is to enable researchers at the University of Pittsburgh and collaborators at other institutions to address fundamental and applied biological questions by identifying changes in microbial (bacterial, fungal, and viral) genomes and transcriptomes using high-throughput sequencing and bioinformatic analyses.
+            </p>
+            <p align="left">
+                This center was created to enable economical genome sequencing in Pittsburgh. We focus specifically on small microbial genomes, which require ~1000x fewer reads than human genomes and for which library preparation (the molecular biology required in advance of genome sequencing) is cost-prohibitive using standard commercial protocols. To reduce costs significantly, we employ a method that dilutes standard reagents appropriate to the small genomes and optimally pools these genomes onto single runs of our Illumina NextSeq500 genome sequencer.  This service is unique to Pittsburgh and rarely exists as a core. Since its inception in October 2015, we have sequenced >10,000 unique samples.
+            </p>
 
+        </div>
+    
+    </div>
+
+    </container>
 ### Pricing
 
 <container>
@@ -73,7 +88,7 @@ subtitle: (MiGS)
             Reads-to-report. Determine isolate relatedness (whole genome SNP phylogeny, MLST), raw genome assemblies, counts of mutational differences 
             and raw output, predicted AMR-associated genes. SNP/SV calling. In comparison to a given reference genome, identify mutations in sequenced isolates. 
             Additional filtering may be specified / required. Population-genomic sequencing, metagenomic sequencing, and analysis. 
-            Required consultation on experimental design, goals, milestones and moreextensive analyses.
+            Required consultation on experimental design, goals, milestones and more extensive analyses.
             </td>
             <td></td>
             <td class="table-row">
