@@ -43,15 +43,15 @@ subtitle: (MiGS)
             <h4>
                 Clonal Sample   
             </h4>
-            A guaranteed minimum of 150 Mb of 
-            sequencing for each sample, sufficient for an 
+            A guaranteed minimum of 150 Mb  of 
+            sequencing for each sample (2 X 151bp reads), sufficient for an 
             average of 30X coverage across a 5Mb 
             genome.  Average sequencing amount 
             delivered per sample is equal to 500 Mb.  
             </td>
             <td></td>
             <td class="table-row"><right>
-                0-87 samples: $80/sample <hr>
+                1-87 samples: $80/sample <hr>
                 88+ samples:  $70/sample
                 </right>
             </td>
@@ -69,7 +69,7 @@ subtitle: (MiGS)
             </td>
             <td></td>
             <td class="table-row">
-                0-87 samples: $125/sample <hr>
+                1-87 samples: $125/sample <hr>
                 88+ samples: $110/sample
             </td>
         </tr>
