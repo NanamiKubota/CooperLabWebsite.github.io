@@ -14,7 +14,9 @@
                     <div class="intro-message">
                         <h1>{{ page.title }}</h1>
                         <h3>{{page.subtitle}}</h3>
-                        <hr class="intro-divider">
+                        {%if page.title%}
+                            <hr class="intro-divider">
+                        {%endif%}
                         {%if page.title == site.title%}
                             <ul class="list-inline intro-social-buttons">
                                 <li>
@@ -24,7 +26,7 @@
                                     <a href="{{site.people.url}}" class="btn btn-default btn-lg"><span>Meet Us</span></a>
                                 </li>
                                 <li>
-                                    <a href="careers.html" class="btn btn-default btn-lg"><span>Join Us</span></a>
+                                    <a href="sequencing.html" class="btn btn-default btn-lg"><span>MiGS</span></a>
                                 </li>
                                 <li>
                                     <a href="http://evolvingstem.org" class="btn btn-default btn-lg"><span>Evolving STEM</span></a>

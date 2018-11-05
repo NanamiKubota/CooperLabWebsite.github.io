@@ -50,7 +50,14 @@ h6 {
     background: url(../images/dna.png) no-repeat center center;
     background-size: cover;
 }
-
+.migs-header {
+    padding-top: 5px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    background: url(../images/MiGSlogo.png) no-repeat center center;
+    background-size: cover;
+}
 .pgh-header {
     padding-top: 5px;
     padding-bottom: 1px;

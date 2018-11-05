@@ -1,8 +1,8 @@
 ---
 layout: page
-header: dna-header
-title: Microbial Genomics Sequencing center
-subtitle: (MiGS)
+header: migs-header
+title: 
+subtitle: 
 ---
 
 ### We offer sequencing services on an Illumina NextSeq 500 sequencer as well as bioinformatics analyses.
@@ -11,18 +11,18 @@ subtitle: (MiGS)
 
 ### [Email Dr. Cooper and Dan Snyder](mailto:vaughn.cooper@pitt.edu?subject=Sequencing%20Services&cc=snyde236@gmail.com)
 
-#### Mission
+### Mission
 <container>
 ​    <div class="row">
 ​        <div class="col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
 ​            <p align="left">
-​                The mission of the Microbial Genomic Sequencing center (MIGS) is to enable researchers and collaborators at other institutions to address fundamental and applied biological questions by identifying changes in microbial (bacterial, fungal, and viral) genomes and transcriptomes using high-throughput sequencing and bioinformatic analyses.
+The mission of the Microbial Genomic Sequencing center (MIGS) is to enable researchers and collaborators at other institutions to address fundamental and applied biological questions by identifying changes in microbial (bacterial, fungal, and viral) genomes and transcriptomes using high-throughput sequencing and bioinformatic analyses.
 ​            </p>
 ​            <p align="left">
-​                This center was created to enable economical genome sequencing in Pittsburgh. We focus specifically on small microbial genomes, which require ~1000x fewer reads than human genomes and for which library preparation (the molecular biology required in advance of genome sequencing) is cost-prohibitive using standard commercial protocols. To reduce costs significantly, we employ a method that dilutes standard reagents appropriate to the small genomes, utilizes PCR amplification to permit low DNA input and optimally pools these genomes onto single runs of our Illumina NextSeq500 genome sequencer.  This service is unique to Pittsburgh and rarely exists as a core. Since its inception in October 2015, we have sequenced >10,000 unique samples.
+This center was created to enable economical genome sequencing in Pittsburgh. We focus specifically on small microbial genomes, which require ~1000x fewer reads than human genomes and for which library preparation (the molecular biology required in advance of genome sequencing) is cost-prohibitive using standard commercial protocols. To reduce costs significantly, we employ a method that dilutes standard reagents appropriate to the small genomes, utilizes PCR amplification to permit low DNA input and optimally pools these genomes onto single runs of our Illumina NextSeq500 genome sequencer.  This service is unique to Pittsburgh and rarely exists as a core. Since its inception in October 2015, we have sequenced >10,000 unique samples.
 ​            </p>
 ​            <p align="left">
-​                To begin working with MiGS, please contact us through the above link and tell us how we can help your research.  We require a short service agreement, in which you retain IP, to be digitally signed before we can receive samples.  Once this is done, we ask for at least 40uL of gDNA (diluted in Tris, TE or water) measuring between 10 and 100ng/uL.  After we have received your samples, you can expect to receive your sequencing data within two weeks via Box.
+To begin working with MiGS, please contact us through the above link and tell us how we can help your research.  We require a short service agreement, in which you retain IP, to be digitally signed before we can receive samples.  Once this is done, we ask for at least 40uL of gDNA (diluted in Tris, TE or water) measuring between 10 and 100ng/uL.  After we have received your samples, you can expect to receive your sequencing data within two weeks via Box.
 ​            </p>
 
         </div>
