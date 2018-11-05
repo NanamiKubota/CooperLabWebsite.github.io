@@ -1,8 +1,8 @@
 ---
 layout: page
 header: migs-header
-title: 
-subtitle: 
+title: ""
+subtitle: "" 
 ---
 
 ### We offer sequencing services on an Illumina NextSeq 500 sequencer as well as bioinformatics analyses.
