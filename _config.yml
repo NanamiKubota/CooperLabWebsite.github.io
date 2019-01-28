@@ -41,10 +41,6 @@ plugins:
   - jekyll-feed
 
 collections:
-  news:
-    output: true
-    title: News
-    background_image_url: /assets/P1070812-H800.JPG
   research:
     title: Research
     output: true
