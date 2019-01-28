@@ -1,10 +1,8 @@
 ---
-layout: post
-title: "EvolvingSTEM featured on our local NPR station, WESA"
-date:   2019-01-23 17:00:00-0500
+title: EvolvingSTEM on NPR
+image: "/images/Image-3.png"
+date:   2019-01-20 12:00:00 -0400
 ---
-
-
 EvolvingSTEM was featured yesterday on the third segment of the [*The Confluence*](https://www.wesa.fm/post/alliances-still-key-aurora-sharrards-vision-systemic-sustainability), a daily news show in the Pittsburgh area.
 
 [Confluence-EvolvingSTEM-190123.mp3](/Confluence-EvolvingSTEM-190123.mp3)
