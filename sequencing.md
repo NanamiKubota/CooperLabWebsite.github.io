@@ -31,7 +31,7 @@ To begin working with MiGS, please contact us through the above link and tell us
     
     </container>
 ### Pricing
-We require a minimum order of $400 or at least 5 different strains for new accounts.
+To help offset the costs associated with starting new accounts, we require a minimum of $400 or 5 different strains for the initial order.
 
 <container>
 ​    <div class="row">
