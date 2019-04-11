@@ -8,6 +8,27 @@ publications: http://micropopbio.org/pubs/cooper.html
 image: /images/cooper.jpeg
 ---
 
-I am an evolutionary geneticist and microbiologist whose lab applies genomic technology to understand ecological and evolutionary dynamics in microbial populations. We have pioneered methods for studying long-term evolution in biofilm populations and for measuring genome-wide mutation rates. Our focus is pathogen evolution that occurs during chronic infections, but we also study eco-evolutionary dynamics in biofilms, the ecological context of antimicrobial resistance, why genome regions mutate/evolve at different rates, and how the microbiome itself evolves with various conditions. As a teacher, I advocate for the study of evolution-in-action using hands-on experiments, which we’ve developed into a simple yet powerful curriculum for 9th-10th graders. This curriculum, called EvolvingSTEM, produces significant increases in learning of evolution and heredity, and also increases motivation towards pursuing STEM-related careers.
 
-My wife Erika and I enjoy spending time with our two boys and two Cardigan Welsh corgis. You’ll find often us at a swim meet, baseball diamond, soccer pitch, or when we’re lucky, fishing or vacationing at the beach or in the mountains. I still love swimming, cycling, and running (even if my knees don’t) and raced triathlon for 25 years, including 20 Ironman finishes (7 in Kona).
+Vaughn Cooper is an evolutionary biologist and microbiologist. 
+He received his bachelor’s degree from Amherst College and his Ph.D. in 2000 from Michigan State 
+University under the mentorship of Richard Lenski, where he studied the evolution of specialization
+ in the [Long-Term Evolution Experiment of E. coli populations](http://myxo.css.msu.edu/ecoli/). 
+ He was a Postdoctoral Fellow of the Michigan Society of Fellows at the University of Michigan, 
+ studying [pathogens of the cystic fibrosis airway with John LiPuma](https://www.ncbi.nlm.nih.gov/pubmed/19956737). He was Assistant and 
+ Associate Professor at the University of New Hampshire from 2004-2015, moving to the University 
+ of Pittsburgh in 2015. He is currently Professor of Microbiology and Molecular Genetics, and 
+ Computational and Systems Biology, at the University of Pittsburgh, School of Medicine. 
+ He co-founded and is Director of the [Center for Evolutionary Biology and Medicine (CEBaM)](https://www.cebam.pitt.edu), 
+ founded and directs the [Microbial Genomics Sequencing center (MiGS)](http://micropopbio.org/sequencing.html) 
+ and is the Chair of the [Council for Microbial Sciences (COMS)](https://www.asm.org/Council-on-Microbial-Sciences) 
+ for [the American Society of Microbiology](https://www.asm.org). 
+ His awards include the 2010 Outstanding Assistant Professor at UNH and an NSF CAREER award. 
+ His research is supported by the NIH, NSF, NASA, and by the [Cystic Fibrosis Foundation](https://www.cff.org). 
+ Dr. Cooper has published more than [70 peer-reviewed publications](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=vaughn+cooper&btnG=) and invited chapters, and 
+ currently is supported by 12 active grants or contracts. The Cooper laboratory studies how 
+ bacterial populations (e.g. Burkholderia, Pseudomonas, Acinetobacter, and multispecies 
+ communities) evolve to adapt to new hosts and environments, particularly in biofilms. 
+ Other major interests include the [evolution of antimicrobial resistance](https://www.biorxiv.org/content/10.1101/581611v1.full) and why genome 
+ regions mutate/evolve at different rates. We also develop and promote a laboratory 
+ curriculum called [EvolvingSTEM](https://www.biorxiv.org/content/10.1101/514513v1.abstract) that enables high school students to learn key topics in 
+ evolution and heredity by conducting a weeklong experiment with bacteria. 
