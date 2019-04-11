@@ -14,7 +14,7 @@ He received his bachelor’s degree from Amherst College and his Ph.D. in 2000 f
 University under the mentorship of Richard Lenski, where he studied the evolution of specialization
  in the [Long-Term Evolution Experiment of E. coli populations](http://myxo.css.msu.edu/ecoli/). 
  He was a Postdoctoral Fellow of the Michigan Society of Fellows at the University of Michigan, 
- studying [pathogens of the cystic fibrosis airway with John LiPuma](https://www.ncbi.nlm.nih.gov/pubmed/19956737). He was Assistant and 
+ studying pathogens of the cystic fibrosis airway with John LiPuma. He was Assistant and 
  Associate Professor at the University of New Hampshire from 2004-2015, moving to the University 
  of Pittsburgh in 2015. He is currently Professor of Microbiology and Molecular Genetics, and 
  Computational and Systems Biology, at the University of Pittsburgh, School of Medicine. 
