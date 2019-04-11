@@ -40,6 +40,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
+plugins_dir:
+  - jekyll-feed
+
 collections:
   research:
     title: Research
