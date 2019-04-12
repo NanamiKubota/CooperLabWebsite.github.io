@@ -37,12 +37,9 @@ permalink: http://micropopbio.org
 markdown: kramdown
 theme: minima
 
+plugins_dir: ./_scripts
 plugins:
   - jekyll-feed
-
-plugins_dir:
-  - jekyll-feed
-
 collections:
   research:
     title: Research

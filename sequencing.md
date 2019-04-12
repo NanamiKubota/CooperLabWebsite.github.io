@@ -100,6 +100,7 @@ To help offset the costs associated with starting new accounts, we require a min
 ​            </td>
 ​        </tr>
 ​    </table>
+	<a href="/data/sample_form.xlsx">Please use this form to submit your samples.</a>
 ​    </div>
 ​    </div>
 
