@@ -4,7 +4,14 @@ header: migs-header
 title: ""
 subtitle: "" 
 ---
-
+# Redirects the user to the new MIGs page. 
+# The old page is kept "just in case."
+<html>
+    <head>
+	<meta http-equiv="refresh" content="0; url=https://www.migs.pitt.edu/">
+	<link rel="canonical" href="https://www.migs.pitt.edu/" />
+    </head>
+</html>
 ### We offer sequencing services on an Illumina NextSeq 500 sequencer as well as bioinformatics analyses.
 
 ### Want to learn more? 
