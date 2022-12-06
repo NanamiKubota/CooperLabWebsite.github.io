@@ -2,6 +2,7 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
+
 #main {
   @include clearfix;
   margin-left: auto;
@@ -188,7 +189,7 @@ body {
   &--overlay {
     position: relative;
     margin-bottom: 2em;
-    padding: 3em 0;
+    padding: 5em 0;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
@@ -576,3 +577,259 @@ body {
     }
   }
 }
+
+/*
+   NK Custom css
+   ========================================================================== */
+
+.current-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #29312f;
+  padding: 20px 40px 40px;
+  margin-bottom: 1rem;
+  max-width: 100%;
+  min-height: 400px;
+
+  &__image {
+    display: inline-block;
+    vertical-align: top;
+    &__profile {
+      width: 100%;
+      max-width: 270px;
+      padding-right: 10px;
+    }
+  }
+  &__icon {
+    width: 20%;
+  }
+  &__text {
+    display: inline-block;
+    width: 75%;
+    @media (max-width: 620px) {
+      width: 75%;
+    }
+  }
+}
+
+.current-name {
+  color: #eaeaea;
+  font-size: 1em;
+  margin: 1em 0 0.5em;
+  line-height: 1;
+  font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+  font-weight: bold;
+}
+
+.current-position {
+  color: #eaeaea;
+  font-size: 0.8em;
+  margin: 0 0 0.5em;
+}
+
+.current-content {
+  font-size: 0.6em;
+  margin: 0 0 0.5em;
+}
+
+.current-icon {
+  color: #eaeaea;
+  font-size: 80%;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  margin-bottom: 0.25em;
+  padding-right: 20px;
+
+  a {
+    text-decoration: none;
+  }
+
+  &__filter{
+    filter: invert(86%) sepia(1%) saturate(35%) hue-rotate(343deg) brightness(106%) contrast(102%);
+    color: #eaeaea;
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+    // &:hover {
+    //   filter: invert(87%) sepia(11%) saturate(903%) hue-rotate(104deg) brightness(86%) contrast(89%);
+    // }
+  }
+
+  &:hover {
+    color: $primary-color;
+    text-decoration: underline;
+  }
+}
+
+.current-sidebar {
+  color: #eaeaea;
+  @include clearfix();
+  @include breakpoint($large) {
+    float: left;
+    width: calc(#{$right-sidebar-width-narrow} - 1em);
+    -webkit-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+  }
+
+  @include breakpoint($x-large) {
+    width: calc(#{$right-sidebar-width} - 1em);
+  }
+
+  // > * {
+  //   margin-top: 1em;
+  //   margin-bottom: 1em;
+  // }
+
+  // h2,
+  // h3,
+  // h4,
+  // h5,
+  // h6 {
+  //   margin-bottom: 0;
+  //   font-family: $sans-serif-narrow;
+  // }
+
+  // p,
+  // li {
+  //   font-family: $sans-serif;
+  //   font-size: $type-size-6;
+  //   line-height: 1.5;
+  // }
+
+  // img {
+  //   width: 100%;
+
+  //   &.emoji {
+  //     width: 20px;
+  //     height: 20px;
+  //   }
+  // }
+}
+
+
+.alumni-cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0 2em;
+}
+
+.alumni-cards_item {
+  display: flex;
+  padding: 0.25rem;
+  max-height: 400px;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.alumni-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #29312f;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 200px;
+}
+
+// /* Three columns side by side */
+// .alumni-column {
+//   display: flex;
+//   flex-wrap: wrap;
+//   list-style: none;
+//   // float: left;
+//   // width: 20%;
+//   // margin-bottom: 16px;
+//   // padding: 0 8px;
+// }
+
+// /* Display the columns below each other instead of side by side on small screens */
+// @media screen and (max-width: 650px) {
+//   .alumni-column {
+//     width: 100%;
+//     display: block;
+//   }
+// }
+
+/* Add some shadows to create a card effect */
+// .alumni-card {
+//   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+//   background-color: #2f3239;
+// }
+
+.alumni-image {
+  width: 100%;
+  // height: auto;
+  // max-width: 100%;
+  vertical-align: middle;
+  object-fit: cover;
+  height: 200px;
+}
+
+/* Some left and right padding inside the container */
+.alumni-container {
+  padding: 0 16px;
+  padding: 5px;
+}
+
+/* Clear floats */
+.alumni-container::after, .alumni-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.alumni-name {
+  font-size: 0.7em;
+  margin: 1em 0 0.5em;
+  line-height: 1;
+  font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+  font-weight: bold;
+}
+
+.alumni-position {
+  font-size: 0.6em;
+  margin: 0 0 0.5em;
+}
+
+.alumni-contact {
+  font-size: 0.6em;
+  color: grey;
+  margin: 0 0 0.5em;
+}
+
+.alumni-button {
+  background-color: $primary-color; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  // border: none;
+  // outline: 0;
+  // display: inline-block;
+  // padding: 8px;
+  // color: white;
+  // background-color: #000;
+  // // text-align: center;
+  // // cursor: pointer;
+  // width: 100%;
+}
+
+// .alumni-button:hover {
+//   background-color: #555;
+// }

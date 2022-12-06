@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+<div id="main" role="main">
+    <h2>Principal Investigator</h2>
+    {% assign current = site.current | where:'group', "PI" %}
+    {% for person in current %} 
+        <div class="current-container">
+            <div class="current-sidebar">
+                <img src="{{ person.image }}" class="current-container__image__profile">
+                <p class="current-name">{{ person.title }}</p>
+                <p class="current-position">{{ person.position }}</p>
+                <div class="current-container__icon">
+                    <a href="{{ person.links.CV }}" style="text-decoration: none;" ><div class="current-icon"><img class="current-icon__filter" src="/images/favicon/file-solid.svg" >CV</div></a>
+                    <a href="{{ person.links.Email }}" style="text-decoration: none;" ><div class="current-icon"><img class="current-icon__filter" src="/images/favicon/envelope-solid.svg" >Email</div></a>
+                    <a href="{{ person.links.Publications }}" style="text-decoration: none;" ><div class="current-icon"><img class="current-icon__filter" src="/images/favicon/book-solid.svg" >Publications</div></a>
+                    <a href="{{ person.links.Twitter }}" style="text-decoration: none;" ><div class="current-icon"><i class="fab fa-fw fa-twitter-square" style="margin-right: 5px; color: #eaeaea;" ></i>Twitter</div></a>
+                </div>
+            </div>
+            <div class="current-container__text">
+                <p class="current-content">{{ person.content | markdownify }}</p>
+            </div>
+        </div>
+    {% endfor %}
+    <h2>Postdoctoral Researcher</h2>
+    {% assign current = site.current | where:'group', "postdoc" %}
+    {% for person in current %} 
+        <div class="current-container">
+            <div class="current-sidebar">
+                <img src="{{ person.image }}" class="current-container__image__profile">
+                <p class="current-name">{{ person.title }}</p>
+                <p class="current-position">{{ person.position }}</p>
+                <div class="current-container__icon">
+                    {% if person.links.CV != null %}<a href="{{ person.links.CV }}" style="text-decoration: none;" ><div class="current-icon"><img class="current-icon__filter" src="/images/favicon/file-solid.svg" >CV</div></a>{% endif %}
+                    {% if person.links.Email != null %}<a href="{{ person.links.Email }}" style="text-decoration: none;" ><div class="current-icon"><img class="current-icon__filter" src="/images/favicon/envelope-solid.svg" >Email</div></a>{% endif %}
+                    {% if person.links.Publications != null %}<a href="{{ person.links.Publications }}" style="text-decoration: none;" ><div class="current-icon"><img class="current-icon__filter" src="/images/favicon/book-solid.svg" >Publications</div></a>{% endif %}
+                    {% if person.links.Twitter != null %}<a href="{{ person.links.Twitter }}" style="text-decoration: none;" ><div class="current-icon"><i class="fab fa-fw fa-twitter-square" style="margin-right: 5px; color: #eaeaea;" ></i>Twitter</div></a>{% endif %}
+                </div>
+            </div>
+            <div class="current-container__text">
+                <p class="current-content">{{ person.content | markdownify }}</p>
+            </div>
+        </div>
+    {% endfor %}
+    <h2>Graduate Students</h2>
+    {% assign current = site.current | where:'group', "grad" %}
+    {% for person in current %} 
+    <div class="current-container">
+        <div class="current-sidebar">
+            <img src="{{ person.image }}" class="current-container__image__profile">
+            <p class="current-name">{{ person.title }}</p>
+            <p class="current-position">{{ person.position }}</p>
+            <div class="current-container__icon">
+                {% if person.links.CV != null %}<a href="{{ person.links.CV }}" style="text-decoration: none;" ><div class="current-icon"><img class="current-icon__filter" src="/images/favicon/file-solid.svg" >CV</div></a>{% endif %}
+                {% if person.links.Email != null %}<a href="{{ person.links.Email }}" style="text-decoration: none;" ><div class="current-icon"><img class="current-icon__filter" src="/images/favicon/envelope-solid.svg" >Email</div></a>{% endif %}
+                {% if person.links.Publications != null %}<a href="{{ person.links.Publications }}" style="text-decoration: none;" ><div class="current-icon"><img class="current-icon__filter" src="/images/favicon/book-solid.svg" >Publications</div></a>{% endif %}
+                {% if person.links.Twitter != null %}<a href="{{ person.links.Twitter }}" style="text-decoration: none;" ><div class="current-icon"><i class="fab fa-fw fa-twitter-square" style="margin-right: 5px; color: #eaeaea;" ></i>Twitter</div></a>{% endif %}
+            </div>
+        </div>
+        <div class="current-container__text">
+            <p class="current-content">{{ person.content | markdownify }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<aside class="sidebar__top">
+    <a href="#site-nav"> <i class="fas fa-chevron-circle-up fa-2x" style="color:#88CCB2;"></i></a>
+    </aside>

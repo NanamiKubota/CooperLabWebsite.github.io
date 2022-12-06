@@ -1,0 +1,60 @@
+
+<div class="section" id = {{post.title | uri_escape}}>
+    <div class="content-section-{{thecycle}}">
+        <div class="container" id="{{post.title}}">
+            <div class="row">
+                <div class="clearfix"></div>
+                {% if post.image%}
+
+                <div class="col-md-4">
+                    <img class="img-responsive" src="{{post.image}}" alt=""><br>
+                    {% if post.caption %}
+                        <p>{{post.caption | markdownify}}</p>
+                    {% endif %}
+                    {% if post.contact%}
+                        <p>
+                            {%if post.cv%}
+                                <a href="{{post.cv}}">CV</a>
+                                 | 
+                            {%endif%}
+                            {%if post.contact%}
+                                <a href="mailto:{{post.contact}}">Contact</a>
+                                 | 
+                            {%endif%}
+                            {%if post.publications%}
+                                <a href="post.publications">Publications</a>
+                            {%endif%}
+                        </p>
+                    {% endif %}
+                </div>
+
+                <div class="col-md-6 col-md-offset-1">
+                    <h2 class="section-heading">
+                        <center>{{post.title}}</center>
+                    </h2>
+                    <h2 class="section-heading">
+                        <center>{{post.subtitle}}</center>
+                    </h2>
+                    <p class="lead">
+                        {{post.content | markdownify}}
+                    </p>
+
+                </div>
+
+                {%else%}
+
+                <div class="col-md-8 col-md-offset-2">
+                    <h2 class="section-heading">
+                        <center>{{post.title}}</center>
+                    </h2>
+                    <h2 class="section-heading">
+                        <center>{{post.subtitle}}</center>
+                    </h2>
+                    {{post.content | markdownify}}
+
+                </div>
+                {%endif%}
+            </div>
+        </div>
+    </div>
+</div>

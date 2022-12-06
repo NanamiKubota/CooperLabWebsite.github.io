@@ -1,7 +1,21 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "People"
+    sublinks:
+      - title: Current
+        url: /people/current
+      - title: Alumni
+        url: /people/alumni/
+  - title: "Research"
+    url: /research/
+  - title: "Sequencing"
+    url: https://www.microbialsequencing.pitt.edu/
+  - title: "EvolvingSTEM"
+    url: https://evolvingstem.org/
+  - title: "Blog"
+    url: /blog/
+  - title: "Contact"
+    url: /contact/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"

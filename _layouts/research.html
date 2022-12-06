@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+<div id="main" role="main">
+    {% for item in site.research %} 
+        <div class="current-container">
+            <img src="{{ item.image }}" class="current-container__image">
+            <div class="current-container__text">
+                <p class="current-name">{{ item.title }}</p>
+                <p class="current-position">{{ item.position }}</p>
+                <p class="current-content">{{ item.content | markdownify }}</p>
+            </div>
+        </div>
+
+        <!-- {%assign page_name_list = page.name | split: "." %}
+        {%assign page_name = page_name_list.first | capitalize%}
+
+        {% if collection.title == page.title %} 
+            {% assign iscollection = true %}
+        {%elsif collection.title == page_name %}
+            {% assign iscollection = true %}
+        {%else%}
+            {% assign iscollection = false%}
+        {%endif%}
+
+        {% if iscollection == true %}
+            {% for post in collection.docs%}
+            {% capture thecycle %}{% cycle 'a', 'b' %}{% endcapture %}
+            {% include section.html sectiontype=thecycle%}
+            {% endfor %}
+        {%else%}
+        {% endif %}  -->
+
+    {% endfor %}
+</div>
+
+<aside class="sidebar__top">
+    <a href="#site-nav"> <i class="fas fa-chevron-circle-up fa-2x" style="color:#88CCB2;"></i></a>
+    </aside>
