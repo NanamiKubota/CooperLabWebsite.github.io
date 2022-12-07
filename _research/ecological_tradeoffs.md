@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ecological Tradeoffs
-categories: research
+collection: research
 image: /images/cluster.png
 caption:
     Fitness Landscapes in a selection environment
