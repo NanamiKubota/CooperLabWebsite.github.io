@@ -53,10 +53,10 @@ layout: default
                 {% endfor %}
             </ul>
     </div>
-    <h2>Research Technicians</h2>
+    <h2>Research Staff</h2>
     <div class="alumni-row">
             <ul class="alumni-cards">
-                {% assign alumni = site.alumni | where:'group', "tech" | sort:'year-start' | reverse %}
+                {% assign alumni = site.alumni | where:'group', "staff" | sort:'year-start' | reverse %}
                 {% for person in alumni %} 
                     <li class="alumni-cards_item">
                         <div class="alumni-card">
@@ -64,7 +64,7 @@ layout: default
                             <div class="alumni-container">
                                 <p class="alumni-name">{{ person.title }}</p>
                                 <p class="alumni-position">{{ person.position }}</p>
-                                <p class="alumni-position">{{ person.year-start }} - {{ person.year-end }}</p>
+                                <p class="alumni-position">{{ person.year-start }}{% if person.year-end != null %} - {{ person.year-end }}</p>{% endif %}
                                 <p class="alumni-contact">{{ person.contact }}</p>
                                 <!-- <p><button class="button">Contact</button></p> -->
                             </div>
@@ -86,7 +86,7 @@ layout: default
                             <div class="alumni-container">
                                 <p class="alumni-name">{{ person.title }}</p>
                                 <p class="alumni-position">{{ person.position }}</p>
-                                <p class="alumni-position">{{ person.year-start }} - {{ person.year-end }}</p>
+                                <p class="alumni-position">{{ person.year-start }}{% if person.year-end != null %} - {{ person.year-end }}</p>{% endif %}
                                 <p class="alumni-contact">{{ person.contact }}</p>
                                 <!-- <p><button class="button">Contact</button></p> -->
                             </div>
@@ -97,24 +97,21 @@ layout: default
                 {% endfor %}
             </ul>
     </div>
-    <h2>Other</h2>
+    <h2>High School Researcher</h2>
     <div class="alumni-row">
             <ul class="alumni-cards">
-                {% assign alumni = site.alumni | where:'group', "other" | sort:'year-start' | reverse %}
+                {% assign alumni = site.alumni | where:'group', "hs" | sort:'year-start' | reverse %}
                 {% for person in alumni %} 
                     <li class="alumni-cards_item">
                         <div class="alumni-card">
-                            <img src="{{ person.image }}" class="alumni-image">
+                            <!-- <img src="{{ person.image }}" class="alumni-image"> -->
                             <div class="alumni-container">
                                 <p class="alumni-name">{{ person.title }}</p>
                                 <p class="alumni-position">{{ person.position }}</p>
-                                <p class="alumni-position">{{ person.year-start }} - {{ person.year-end }}</p>
+                                <p class="alumni-position">{{ person.year-start }}{% if person.year-end != null %} - {{ person.year-end }}</p>{% endif %}
                                 <p class="alumni-contact">{{ person.contact }}</p>
-                                <!-- <p><button class="button">Contact</button></p> -->
                             </div>
-                            <!-- <p>{{ person.title }} - {{ person.position }}</p>
-                            <p>{{ person.content | markdownify }}</p> -->
-                            </div>
+                        </div>
                     </li>
                 {% endfor %}
             </ul>

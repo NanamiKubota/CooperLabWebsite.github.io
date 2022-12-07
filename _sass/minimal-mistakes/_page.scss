@@ -69,6 +69,39 @@ body {
   }
 }
 
+.page_research {
+  @include breakpoint($large) {
+    float: right;
+    width: calc(100% - #{$right-sidebar-width-narrow});
+    padding-right: $right-sidebar-width-narrow;
+  }
+
+  @include breakpoint($x-large) {
+    width: calc(100% - #{$right-sidebar-width});
+    padding-right: $right-sidebar-width;
+  }
+
+  .page__inner-wrap {
+    float: left;
+    margin-top: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    clear: both;
+
+    .page__content,
+    .page__meta,
+    .page__share {
+      position: relative;
+      float: left;
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+      clear: both;
+    }
+  }
+}
+
 .page__title {
   margin-top: 0;
   line-height: 1;
@@ -89,6 +122,7 @@ body {
 }
 
 .page__content {
+  float: left;
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
@@ -588,7 +622,7 @@ body {
   padding: 20px 40px 40px;
   margin-bottom: 1rem;
   max-width: 100%;
-  min-height: 400px;
+  min-height: 500px;
 
   &__image {
     display: inline-block;
@@ -604,6 +638,7 @@ body {
   }
   &__text {
     display: inline-block;
+    // text-align: justify;
     width: 75%;
     @media (max-width: 620px) {
       width: 75%;
@@ -629,6 +664,10 @@ body {
 .current-content {
   font-size: 0.6em;
   margin: 0 0 0.5em;
+
+  // p {
+  //   text-align: justify;
+  // }
 }
 
 .current-icon {

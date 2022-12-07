@@ -1,5 +1,5 @@
 ---
-title: Laura Benton
+title: Charles Traverse
 position: Master's Student
 layout: default
 contact:

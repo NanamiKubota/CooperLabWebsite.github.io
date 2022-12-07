@@ -1,5 +1,5 @@
 ---
-title: Charles Traverse
+title: Rachel Staples
 position: Master's Student
 layout: default
 contact:
