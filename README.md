@@ -10,3 +10,10 @@
  - Contact
    - Updated contact page
    - Updated format
+ - Research
+   - Updated format
+
+
+## TO DO
+- Get missing profile pictures
+- Ask for updated research page content
