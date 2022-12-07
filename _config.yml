@@ -237,11 +237,9 @@ collections:
   current:
     # directory: /people/current/
     output: false
-    image: /images/bio-photo.jpg
   alumni:
     # directory: /people/alumni/
     output: false
-
   blog:
     output: true
 

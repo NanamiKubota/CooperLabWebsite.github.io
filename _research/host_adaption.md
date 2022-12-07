@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Host adaptation and the evolution of antimicrobial resistance
-categories: research
+collection: research
 image: /images/squid.png
 caption: 
     On the left, the dorsal view of a juvenile E. scolopes host. On the right, a schematic illustrating the stages in which host-imposed selection occurs during V. fischeri symbiosis. 

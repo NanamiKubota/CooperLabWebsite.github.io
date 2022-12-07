@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Biofilms and the origins of multicellularity
-categories: research
+collection: research
 image: /images/res.png
 caption: Biofilm Under a Confocal Lens
 ---
