@@ -747,7 +747,6 @@ body {
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
-  padding: 0 2em;
 }
 
 .alumni-cards_item {
@@ -763,14 +762,14 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  width: 200px;
+  width: 220px;
 }
 
 .alumni-image {
   width: 100%;
   vertical-align: middle;
   object-fit: cover;
-  height: 200px;
+  height: 220px;
 }
 
 /* Some left and right padding inside the container */
