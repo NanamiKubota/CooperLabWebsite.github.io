@@ -667,7 +667,7 @@ body {
 
   // p {
   //   text-align: justify;
-  // }
+  // } 
 }
 
 .current-icon {
@@ -690,9 +690,6 @@ body {
     margin-right: 5px;
     height: 20px;
     width: 20px;
-    // &:hover {
-    //   filter: invert(87%) sepia(11%) saturate(903%) hue-rotate(104deg) brightness(86%) contrast(89%);
-    // }
   }
 
   &:hover {
@@ -761,18 +758,6 @@ body {
   max-height: 400px;
 }
 
-@media (min-width: 40rem) {
-  .cards_item {
-    width: 50%;
-  }
-}
-
-@media (min-width: 56rem) {
-  .cards_item {
-    width: 33.3333%;
-  }
-}
-
 .alumni-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #29312f;
@@ -783,35 +768,8 @@ body {
   width: 200px;
 }
 
-// /* Three columns side by side */
-// .alumni-column {
-//   display: flex;
-//   flex-wrap: wrap;
-//   list-style: none;
-//   // float: left;
-//   // width: 20%;
-//   // margin-bottom: 16px;
-//   // padding: 0 8px;
-// }
-
-// /* Display the columns below each other instead of side by side on small screens */
-// @media screen and (max-width: 650px) {
-//   .alumni-column {
-//     width: 100%;
-//     display: block;
-//   }
-// }
-
-/* Add some shadows to create a card effect */
-// .alumni-card {
-//   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-//   background-color: #2f3239;
-// }
-
 .alumni-image {
   width: 100%;
-  // height: auto;
-  // max-width: 100%;
   vertical-align: middle;
   object-fit: cover;
   height: 200px;
@@ -849,28 +807,15 @@ body {
   margin: 0 0 0.5em;
 }
 
-.alumni-button {
-  background-color: $primary-color; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  // border: none;
-  // outline: 0;
-  // display: inline-block;
-  // padding: 8px;
-  // color: white;
-  // background-color: #000;
-  // // text-align: center;
-  // // cursor: pointer;
-  // width: 100%;
-}
-
-// .alumni-button:hover {
-//   background-color: #555;
+// .alumni-button {
+//   background-color: $primary-color; /* Green */
+//   border: none;
+//   color: white;
+//   padding: 15px 32px;
+//   text-align: center;
+//   text-decoration: none;
+//   display: inline-block;
+//   font-size: 16px;
 // }
 
 .figure_box {
@@ -918,6 +863,110 @@ body {
   font-size: 80%;
   margin-top: 2em;
   margin-bottom: 1em;
-  // height: 20px;
-  // width: 20px;
 }
+
+.contact-cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.contact-cards_item {
+  display: flex;
+  padding: 1rem;
+  max-height: 200px;
+}
+
+// @media (min-width: 40rem) {
+//   .cards_item {
+//     width: 50%;
+//   }
+// }
+
+// @media (min-width: 56rem) {
+//   .cards_item {
+//     width: 33.3333%;
+//   }
+// }
+
+.contact-card {
+  background-color: #29312f;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  // flex-direction: column;
+  flex-direction: row;
+  overflow: hidden;
+  width: 450px;
+  align-items: center;
+  &-icon-container {
+    width: 100px;
+    height: 100px;
+    margin: 0 1em;
+    background: $primary-color;
+    justify-content: center;
+    display: flex;
+    border-radius: 20%;
+    img {
+      width: 60%;
+      filter: invert(13%) sepia(24%) saturate(221%) hue-rotate(109deg) brightness(94%) contrast(91%);
+    }
+  }
+
+  &-text {
+    display: flex;
+    display: block;
+    display: inline;
+    display: inline-block;
+    margin: 0;
+    p {
+      font-size: medium;
+      b {
+        font-size: larger;
+      }
+    }
+  }
+}
+
+
+// .contact_icon_container {
+//   width: 100px;
+//   height: 100px;
+//   background: $primary-color;
+//   float: left;
+//   justify-content: center;
+//   // align-content: center;
+//   display: flex;
+//   // text-align: center;
+//   margin-left: 1em;
+//   margin-right: 1em;
+//   img {
+//     filter: invert(13%) sepia(24%) saturate(221%) hue-rotate(109deg) brightness(94%) contrast(91%);
+//     width: 60%;
+//   }
+//   border-radius: 20%;
+// }
+
+// .contact_icon__icon {
+//   position: absolute;
+//   width: 60%; //80%
+//   top: 100px;
+//   left: 230px;
+// }
+
+// .contact-card_text {
+//   display: flex;
+//   display: block;
+//   display: inline;
+//   display: inline-block;
+//   margin: 0;
+//   p {
+//     font-size: medium;
+//     b {
+//       font-size: larger;
+//     }
+//   }
+// }
