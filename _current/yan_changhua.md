@@ -1,9 +1,9 @@
 ---
-title: Yan Changhua
+title: Changhua Yan
 position: Medical Student
 contact: YANCHNG@pitt.edu
 publications: 
-image: /images/user-icon.svg
+image: /images/yan.jpg
 collection: current
 group: grad
 links:
@@ -15,4 +15,4 @@ links:
 year-start: 2022
 year-end: present
 ---
-To be updated.
+Changhua Yan is an exchange scholar from Tsinghua University in China, where he was a undergraduate student and majored in medicine. He is interested in biofilms, and currently researching on how different membrane stressors such as glycerol and ethanol affect biofilm formation of Pseudomonas fluorescens.
