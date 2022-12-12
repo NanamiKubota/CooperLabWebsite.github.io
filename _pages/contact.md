@@ -39,7 +39,7 @@ header:
         <p>
           <b>Email: </b><br>
           Vaughn Cooper <br>
-          vaughn.cooper@pitt.edu
+          vaughn<i>[dot]</i>cooper<i>[at]</i>pitt<i>[dot]</i>edu
         </p>
       </div>
     </div>
