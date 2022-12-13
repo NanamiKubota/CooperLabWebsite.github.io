@@ -1,6 +1,6 @@
 ---
 title: Changhua Yan
-position: Medical Student
+position: Exchange Scholar
 contact: YANCHNG@pitt.edu
 publications: 
 image: /images/yan.jpg
