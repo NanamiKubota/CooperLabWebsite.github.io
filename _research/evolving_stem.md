@@ -1,6 +1,7 @@
 ---
 layout: default
 title: EvolvingSTEM
+collection: research
 image: /images/stem_learning.png
 image_caption: EvolvingSTEM
 ---

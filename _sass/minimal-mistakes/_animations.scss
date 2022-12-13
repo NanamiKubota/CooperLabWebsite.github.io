@@ -1,0 +1,33 @@
+/* ==========================================================================
+   ANIMATIONS
+   ========================================================================== */
+
+ .page__hero-home {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    @include clearfix;
+    width: 60%;
+    height: auto;
+    // opacity: 1;
+    -webkit-animation: intro 2s;
+    animation: intro 2s linear forwards;
+}
+
+@-webkit-keyframes intro {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes intro {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

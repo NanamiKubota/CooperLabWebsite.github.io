@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+<div id="main" role="main">
+    <h2>Principal Investigator</h2>
+    {% assign current = site.current | where:'group', "PI" %}
+    {% for person in current %} 
+        {% include current_profile.html %}
+    {% endfor %}
+    {% assign current = site.current | where:'group', "postdoc" %}
+    {% if current != empty %}
+        <h2>Postdoctoral Researcher</h2>
+        {% for person in current %}
+            {% include current_profile.html %}
+        {% endfor %}
+    {% endif %}
+    {% assign current = site.current | where:'group', "grad" %}
+    {% if current != empty %}
+        <h2>Graduate Researcher</h2>
+        {% for person in current %}
+            {% include current_profile.html %}
+        {% endfor %}
+    {% endif %}
+    {% assign current = site.current | where:'group', "staff" %}
+    {% if current != empty %}
+        <h2>Research Staff</h2>
+        {% for person in current %}
+            {% include current_profile.html %}
+        {% endfor %}
+    {% endif %}
+    {% assign current = site.current | where:'group', "visiting" %}
+    {% if current != empty %}
+        <h2>Visiting Researcher</h2>
+        {% for person in current %}
+            {% include current_profile.html %}
+        {% endfor %}
+    {% endif %}
+    {% assign current = site.current | where:'group', "undergrad" %}
+    {% if current != empty %}
+        <h2>Undergraduate Researcher</h2>
+        {% for person in current %}
+            {% include current_profile.html %}
+        {% endfor %}
+    {% endif %}
+    {% assign current = site.current | where:'group', "hs" %}
+    {% if current != empty %}
+        <h2>High School Researcher</h2>
+        {% for person in current %}
+            {% include current_profile.html %}
+        {% endfor %}
+    {% endif %}
+</div>
+
+<aside class="sidebar__top">
+    <a href="#site-nav"> <i class="fas fa-chevron-circle-up fa-2x" style="color:#88CCB2;"></i></a>
+    </aside>
