@@ -1,5 +1,5 @@
 ---
-layout: #page
+layout: #cpage
 header: pgh-header
 title: Careers
 ---
