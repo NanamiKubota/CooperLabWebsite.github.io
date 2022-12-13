@@ -28,7 +28,7 @@ As a lab we seek to answer the following questions:
 <a name="host_drug_evo"></a>
 # 1. Host adaptation and the evolution of antimicrobial resistance
 
-<div class="figure_box">
+<div class="research_fig">
     <img src="/images/squid.png" />
     <p>On the left, the dorsal view of a juvenile E. scolopes host. On the right, a schematic illustrating the stages in which host-imposed selection occurs during V. fischeri symbiosis. <br>
     <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5466423/pdf/elife-24414.pdf">Host-selected mutations converging on a global regulator drive an adaptive leap towards symbiosis in bacteria.Pankey,M.S. et al. eLife, 2017</a></p>
@@ -53,7 +53,7 @@ Interested? Check out the following publications:
 
 # 2. Biofilms and the origins of multicellularity
 
-<div class="figure_box">
+<div class="research_fig">
     <img src="/images/res.png" />
     <p>Biofilm Under a Confocal Lens</p>
 </div>
@@ -78,7 +78,7 @@ Interested? Check out the following publications:
 
 # 3. Ecological Tradeoffs
 
-<div class="figure_box">
+<div class="research_fig">
     <img src="/images/cluster.png" />
     <p>Fitness Landscapes in a selection environment <br>
     <a href="http://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1003426&type=printable">The Environment Affects Epistatic Interactions to Alter the Topology of an Empirical Fitness Landscape. K.M. Flynn. et al. PLOS Genetics, 2013</a></p>
@@ -102,7 +102,7 @@ Interested? Check out the following publications:
 
 # 4. Why genome regions evolve at different rates
 
-<div class="figure_box">
+<div class="research_fig">
     <img src="/images/mut_rates.png" />
     <p>Overall base-substitution and indel mutation rates from the origion of replication oriC in B. cenocepacia. <br>
     <a href="http://www.genetics.org/content/genetics/200/3/935.full.pdf">The rate and molecular spectrum of spontaneous mutations in the GC-Rich multichromosome genome of Burkholderia cenocepacia. M.M. Dillon, et al. Genetics, 2015</a></p>
@@ -127,7 +127,7 @@ Interested? Check out the following publications:
 
 # 5. EvolvingSTEM
 
-<div class="figure_box">
+<div class="research_fig">
     <img src="/images/stem_learning.png" />
     <p>EvolvingSTEM</p>
 </div>
