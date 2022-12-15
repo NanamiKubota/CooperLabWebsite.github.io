@@ -49,7 +49,7 @@ layout: default
             </li>
         {% endfor %}
     </ul>
-    <h2>Research Staff</h2>
+    <!-- <h2>Research Staff</h2>
     <ul class="alumni-cards">
         {% assign alumni = site.alumni | where:'group', "staff" | sort:'year-start' | reverse %}
         {% for person in alumni %} 
@@ -61,14 +61,11 @@ layout: default
                         <p class="alumni-position">{{ person.position }}</p>
                         <p class="alumni-position">{{ person.year-start }}{% if person.year-end != null %} - {{ person.year-end }}</p>{% endif %}
                         <p class="alumni-contact">{{ person.contact }}</p>
-                        <!-- <p><button class="button">Contact</button></p> -->
                     </div>
-                    <!-- <p>{{ person.title }} - {{ person.position }}</p>
-                    <p>{{ person.content | markdownify }}</p> -->
-                    </div>
+                </div>
             </li>
         {% endfor %}
-    </ul>
+    </ul> -->
     <h2>Undergraduate Researcher</h2>
     <ul class="alumni-cards">
         {% assign alumni = site.alumni | where:'group', "undergrad" | sort:'year-start' | reverse %}
