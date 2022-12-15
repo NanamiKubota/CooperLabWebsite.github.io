@@ -689,6 +689,14 @@ body {
     margin-right: 5px;
     height: 20px;
     width: 20px;
+    max-width: none;
+  }
+
+  i {
+    margin-right: 5px;
+    color: #eaeaea;
+    font-size: 20px;
+    width: 1em;
   }
 
   &:hover {
