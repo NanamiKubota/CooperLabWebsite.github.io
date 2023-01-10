@@ -1,11 +1,11 @@
 ---
 title: Abigail Matela
-position: Postdoctoral Associate
+position: Faculty Instructor
 contact: arm208@pitt.edu
 publications: 
 image: /images/abby_crop.jpeg
 collection: current
-group: postdoc
+group: faculty
 links:
     CV:
     Email: "mailto:arm208@pitt.edu"
