@@ -14,6 +14,13 @@ layout: default
     {% for person in current %} 
         {% include current_profile.html %}
     {% endfor %}
+    {% assign current = site.current | where:'group', "faculty" %}
+    {% if current != empty %}
+        <h2>Faculty Instructor</h2>
+        {% for person in current %}
+            {% include current_profile.html %}
+        {% endfor %}
+    {% endif %}
     {% assign current = site.current | where:'group', "postdoc" %}
     {% if current != empty %}
         <h2>Postdoctoral Researcher</h2>
