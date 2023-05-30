@@ -8,4 +8,5 @@ image: /images/user-icon.svg
 group: undergrad
 year-start: 2011
 year-end: 2012
+present-position: Chemical Engineer
 ---

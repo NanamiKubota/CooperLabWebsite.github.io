@@ -1,6 +1,6 @@
 ---
 title: "Research"
-permalink: /research/
+permalink: /research/areas/
 author_profile: false
 layout: research
 collection: research
@@ -8,40 +8,34 @@ toc: true
 toc_label: "Research Areas"
 toc_icon: "flask"
 toc_sticky: true
-excerpt: "Translating inferences from evolutionary biology to improve human health and empower K-12 education."
+excerpt: "Translating inferences from evolutionary biology to improve human health and enable learning through authentic experiments education."
 header:
     overlay_image: /images/notebook.png
     overlay_filter: rgba(36, 42, 40, 0.6)
 ---
-# About
 
-As a lab we seek to answer the following questions:
+<h1>As a lab we are interested in the following areas:</h1>
 
-1. [Can we predict microbial evolution during host association or towards drug resistance?](#host_drug_evo)
-2. [How do bacteria evolve and form communities within biofilms? What does this teach us about nascent multicellularity?](#biofilm)
-3. [How and why do ecological tradeoffs evolve?](#tradeoff)
-4. [Why do genome regions replicated at different times evolve at different rates?](#genome_evo)
-5. [Evolution is best taught by hands-on experimentation. How do we deliver this on a massive scale?](#evolvingstem)
+1. [Mechanisms of beneficial mutations](#mechanism)
+2. [Evolution during Infections](#infection_evo)
+3. [Ecological-evolutionary dynamics](#eco_evo)
+4. [Adaptive dynamics within host-associated microbiomes](#microbiome)
+5. [EvolvingSTEM](#evolvingstem)
 
 <br>
 
-<a name="host_drug_evo"></a>
-# 1. Host adaptation and the evolution of antimicrobial resistance
+<a name="mechanism"></a>
+# 1. Mechanisms of beneficial mutations
+
+For years, researchers like us have used microbes as model systems to understand how evolutionary processes work. Increasingly, we can also use evolution to understand how microbes work, as a potent genetic screen for mutations that increase fitness in any imaginable environment. These mutations affect genes and systems that often yield the best adaptations and usually teach us new, surprising, fundamental attributes of microbial biology. For example, [we discovered](https://journals.asm.org/doi/10.1128/mbio.00287-23) that nonsynonymous mutations in the essential tRNA-modifying gene tilS that nearly eliminate its primary function somehow increase fitness in certain environments, pointing toward a new secondary function. We’ve also identified [novel mechanisms of antimicrobial resistance](https://journals.asm.org/doi/10.1128/mBio.00932-20https://journals.asm.org/doi/10.1128/mBio.00932-20) and [new regulatory functions of enzymes involved in cyclic-di-GMP turnover](https://www.pnas.org/doi/10.1073/pnas.2008540117) that enable functional diversity in biofilms. More recently we’ve collaborated with colleagues who have developed animal models for experimental evolution, which has led us to discover how [certain beneficial mutations produce adaptations](https://journals.asm.org/doi/full/10.1128/mSystems.00352-20) to the host environment. We continue to investigate why mutations in certain genes are repeatedly selected in evolution experiments or chronic infections and how they work. 
+
+This work is supported by grants from NSF and NIH.
 
 <div class="research_fig">
-    <img src="/images/squid.png" />
-    <p>On the left, the dorsal view of a juvenile E. scolopes host. On the right, a schematic illustrating the stages in which host-imposed selection occurs during V. fischeri symbiosis. <br>
-    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5466423/pdf/elife-24414.pdf">Host-selected mutations converging on a global regulator drive an adaptive leap towards symbiosis in bacteria.Pankey,M.S. et al. eLife, 2017</a></p>
+    <img src="/images/mhatre_fig7.jpg" />
+    <p>Possible ways <i>rpfR</i> mutants can influence biofilm phenotypes. 
+    <a href="https://doi.org/10.1073/pnas.2008540117">Figure from Mhatre et al. PNAS, 2020</a></p>
 </div>
-
-Our laboratory is developing the translational utility of evolutionary inference in medicine using new experimental, genomic and bioinformatic methods. Our focus is the evolution-in-action that occurs during human infections, particularly in the airway of Cystic Fibrosis patients, and we also use laboratory models of this process. We run a [sequencing facility](http://micropopbio.org/sequencing.html) with an Illumina NextSeq and Oxford Nanopore and collaborate with many investigators to identify mutations under positive selection during infections and their functional significance, with a focus on adaptations to antibiotics and to biofilm formation. We also study adaptation by symbionts to animal hosts such as the Hawaiian bobtail squid, nematodes, and the medicinal leech. This work is supported by NIH, NSF, and by Gilead. 
-
-Interested? Check out the following publications:
-    
-1. [Pankey, et al. Host-selected Mutations Converging on a Global Regulator Drive on Adaptive Leap Towards Symbiosis in Bacteria. eLife, 2017](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5466423/pdf/elife-24414.pdf)
-2. [Haidar, G., et al. Ceftolozane-Tazobactam for the Treatment of Multidrug-Resistant Pseudomonas aeruginosa Infections: Clinical Effectiveness and Evolution of Resistance. Clinical Infectious Diseases, 2017](https://academic.oup.com/cid/article-abstract/doi/10.1093/cid/cix182/3052769/Ceftolozane-tazobactam-for-the-treatment-of?redirectedFrom=fulltext)
-3. [Honsa, E.S., et al. RelA Mutant Enterococcus faecium with Multiantibiotic Tolerance Arising in an Immunocompromised Host. mBio, 2017](http://mbio.asm.org/content/8/1/e02124-16.full)
-4. [Silva, I.N., et al. Long-Term Evolution of Burkholderia multivorans during a Chronic Cystic Fibrosis Infection Reveals Shifting Forces of Selection. mSystems, 2016](http://msystems.asm.org/content/msys/1/3/e00029-16.full.pdf)
 
 <br>
 
@@ -49,24 +43,19 @@ Interested? Check out the following publications:
 
 <br>
 
-<a name="biofilm"></a>
+<a name="infection_evo"></a>
 
-# 2. Biofilms and the origins of multicellularity
+# 2. Evolution during Infections
+
+Microbes often adaptively evolve when establishing infections by escaping components of the immune system and subsequently, antimicrobial treatment. We are interested in how bacterial populations evolve to escape antibiotic and host pressures during infections, with the goal of improving prediction of antimicrobial resistance (AMR). We study the evolution of drug resistance and pathogenicity [in near real time through <i>in vitro</i>](https://elifesciences.org/articles/47612) and [<i>in vivo</i> experimental evolution](https://journals.asm.org/doi/full/10.1128/mSystems.00352-20)  using [comparative genomics](https://journals.asm.org/doi/full/10.1128/mSystems.00029-16) and analyses of longitudinal deep-sequenced populations. Our research questions include: (1) [mechanisms of drug resistance](https://journals.asm.org/doi/full/10.1128/mBio.00932-20) and [treatment failure](https://www.nature.com/articles/s41564-022-01126-8), (2) the impact of the [biofilm lifestyle on resistance](https://elifesciences.org/articles/47612), (3) how host immune state influences resistance evolution, and (4) comparative genomics of multi-drug resistant clinical isolates. 
+
+This work is supported by the NIH U19AI158076 CARBIRU project and by the PA Department of Health.
 
 <div class="research_fig">
-    <img src="/images/res.png" />
-    <p>Biofilm Under a Confocal Lens</p>
+    <img src="/images/infection_evo_fig.jpeg" />
+    <p><i>Pseudomonas aeruginosa</i> from sinuses of people with cystic fibrosis show diverse pathoadaptive traits. Figure from 
+    <a href="https://doi.org/10.1016/j.celrep.2021.109829">Armbruster et al (2021) <i>Cell Reports</i></a>.</p>
 </div>
-
-
-Check out our [MicroSeminar](https://microseminar.wordpress.com/) video here on [YouTube](https://www.youtube.com/watch?v=aJp6-PTpKvA). We are focused on how bacteria form complex communities within biofilms and how individual cells perceive cues to attach or disperse. We have learned that adaptation involves a sequence of mutations in predictable targets that leads to diversification into ecologically differentiated subpopulations. Often, these subpopulations interact synergistically, with certain types affecting host response and others enhancing resistance. In addition, we now routinely sequence the genomes of hundreds of bacterial isolates from longitudinal samples to define evolutionary forces affecting the courses of infection and the driver mutations, whose functions we work to experimentally identify. This work is supported by the NIH. Studying how different bacterial strains or species coexist and interact when bound together on a surface allows us to explore the origins of multicellular life. We are proud to be part of a [NASA Astrobiology Institute](https://astrobiology.nasa.gov/nai/teams/can-7/umt/) that uses experimental evolution to pursue the goal. 
-
-Interested? Check out the following publications:
-
-1. [Poltak, S., Cooper, V.S. Ecological Succession in Long-Term Experimentally Evolved Biofilms Produces Synergistic Communities. International Society for Microbial Ecology, 2010](https://www.nature.com/ismej/journal/v5/n3/pdf/ismej2010136a.pdf)
-2. [Traverse, C.C., Mayo-smith, L.M., Poltak, S. Cooper, V.S. Tangled Bank of Experimentally evolved Burkholderia Biofils Reflects Selection During Chronic Infections. PNAS, 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3549113/)
-3. [Flynn, K., Dowell, G., Johnson, T.M., Koestler, B.J., Waters, C.M., Cooper, V.S. Evolution of Ecological Diversity in Biofilms of Pseudomonas aeruginosa by Altered Cyclic Diguanylate Signaling. Journal of Bacteriology, 2016](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5019052/pdf/zjb2608.pdf)
-4. [Ellis, C.N., Traverse, C.C., Buskirk, S.W., Cooper, V.S. Character Displacement and the Evolution of Niche Complementarity in a Model Biofilm Community. Evolution, 2014](http://onlinelibrary.wiley.com/doi/10.1111/evo.12581/epdf)
 
 <br>
 
@@ -74,23 +63,17 @@ Interested? Check out the following publications:
 
 <br>
 
-<a name="tradeoff"></a>
+<a name="eco_evo"></a>
 
-# 3. Ecological Tradeoffs
+# 3. Ecological-evolutionary dynamics
+
+Microbes exist within complex communities where both abiotic factors and inter-/intra-species interactions influence evolutionary trajectories. These [environmental factors impose selective forces on communities](http://doi.wiley.com/10.1002/evl3.75). Likewise, individuals in a community can modify their environment and indirectly influence selective pressures applied to the community. We are interested in understanding such ecological and evolutionary dynamics at a community scale, especially in the context of [biofilms](http://dx.doi.org/10.1038/ismej.2010.136), polymicrobial communities, and [active bacteriophages](https://www.science.org/doi/full/10.1126/sciadv.abh1489).
 
 <div class="research_fig">
-    <img src="/images/cluster.png" />
-    <p>Fitness Landscapes in a selection environment <br>
-    <a href="http://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1003426&type=printable">The Environment Affects Epistatic Interactions to Alter the Topology of an Empirical Fitness Landscape. K.M. Flynn. et al. PLOS Genetics, 2013</a></p>
+    <img src="/images/eco_evo_fig.jpeg" />
+    <p>Muller plots showing the changes in <i>Pseudomonas aeruginosa</i> genotype frequency over time. Muller plots were created in <a href="https://github.com/cdeitrick/Lolipop">Lolipop</a>, a bioinformatic tool developed in our lab. Figure from 
+    <a href="https://doi.org/10.1093/molbev/msab248">Harris, Flynn, & Cooper (2021) <i>Mol Biol Evol</i></a>.</p>
 </div>
-
-Two major population-genetic forces can produce ecological specialization throughout life: antagonistic pleiotropy (genetic tradeoffs favored by selection) and mutation accumulation (drift eroding unused traits). We study how these forces interact by studying how mutations interact with the external environment and with other mutations (epistasis). For instance, we work to quantify the distribution of effects of beneficial mutations (DFE) in multiple environments ii) fitness effects of spontaneous mutations nearly unseen by natural selection and iii) fitness of mutations favored in the structured and fluctuating environments of bacterial biofilms. This work is supported by NIH and NASA.
-
-Interested? Check out the following publications:
-
-1. [Dillon, M.M., Rouilard, N.P., Dam, B., Gallet, R., Cooper, V.S. Diverse phenotypic and genetic responses to short‐term selection in evolving Escherichia coli populations. Evolution, 2016](https://www.biorxiv.org/content/biorxiv/early/2015/09/17/027086.full.pdf)
-2. [Dillon, M.M., Cooper, V.S. The Fitness Effects of Spontaneous Mutations Nearly Unseen by Selection in a Bacterium with Multiple Chromosomes. Genetics, 2016](http://www.genetics.org/content/204/3/1225)
-3. [Wang, Y., et al. Benefit of Transferred Mutations is better Predicted by the Fitness of Recipients than by their Ecological or Genetic Relatedness. PNAS, 2016](http://www.pnas.org/content/113/18/5047.full.pdf)
 
 <br>
 
@@ -98,24 +81,25 @@ Interested? Check out the following publications:
 
 <br>
 
-<a name="genome_evo"></a>
+<a name="microbiome"></a>
 
-# 4. Why genome regions evolve at different rates
+# 4. Adaptive dynamics within host-associated microbiomes
 
-<div class="research_fig">
-    <img src="/images/mut_rates.png" />
-    <p>Overall base-substitution and indel mutation rates from the origion of replication oriC in B. cenocepacia. <br>
-    <a href="http://www.genetics.org/content/genetics/200/3/935.full.pdf">The rate and molecular spectrum of spontaneous mutations in the GC-Rich multichromosome genome of Burkholderia cenocepacia. M.M. Dillon, et al. Genetics, 2015</a></p>
-</div>
+Like any disrupted ecosystem, when a host-associated microbiome is far from equilibrium, certain community members may be selected to inhabit vacant niches in which they are relatively maladapted. These lineages may undergo rapid adaptive evolution that can be tracked by longitudinal genome sequencing, alongside more typical unbiased measures of the community as it remodels. We study these processes in a wide range of systems with experts focused on particular diseases or symbioses, including:
+- in the upper and lower airways of [persons with cystic fibrosis](https://www.sciencedirect.com/science/article/pii/S2211124721012936), 
+- during establishment of [chronic wounds](https://journals.asm.org/doi/full/10.1128/mBio.01698-19),
+- during chronic infections of [prosthetic joint replacement](https://onlinelibrary.wiley.com/doi/full/10.1002/jor.25031)
+- during colonization of the infant gut
+- during [symbiosis with the Hawaiian bobtail squid](https://elifesciences.org/articles/24414)
+and even among the virome within bacterial cells
 
-In bacterial genomes with multiple chromosomes, smaller, secondary chromosomes evolve more rapidly. Intra-genome variation in the rates and spectra of mutations could provide a mechanism by which selection acts on genome organization to influence both the origin of genetic variation as well as its fate. We use mutation-accumulation experiments (MA) paired with whole-genome-sequencing (WGS) to capture the mutational process of various bacterial species with unprecedented resolution. We are exploring the root causes of this variation as it may bear on variation in genome stability in all organisms. 
+(NIAID F31AI179118, NHLBI R33H137077 w/ Bomberger, R01DK120697 w/ Hand, R01AI165519 w/ Van Tyne, R01HL162964 w/ Zemke)
 
-Interested? Check out the following publications:
 
-1. [Cooper, V.S., S. Vohr, S. Wrocklage, and P.J. Hatcher. Why Genes Evolve Faster on Secondary Chromosomes in Bacteria. PLoS Computational Biology, 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2848543/pdf/pcbi.1000732.pdf)
-2. [Flynn, K.M., S.H. Vohr, P.J. Hatcher, Cooper, V.S. Evolutionary Rates and Gene Dispensability Associate with Replication Timing in the Archaeon Sulfolobus islandicus. Genome Biology and Evolution, 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3000693/pdf/evq068.pdf)
-3. [Dillon, M.M., Sung, W., Lynch, M., Cooper, V.S. The Rate and Molecular Spectrum of Spontaneous Mutations in the GC-Rich Multichromosome Genome of Burkholderia cenocepacia. Genetics, 2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4512553/pdf/935.pdf)
-4. [Dillon, M.M., Sung, W., Sebra, R., Lynch, M., Cooper, V.S. Genome-Wide Biases in the Rate and Molecular Spectrum of Spontaneous Mutations in Vibrio cholerae and Vibrio fischeri. MBE 2016](https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/msw224)
+<!-- <div class="research_fig">
+    <img src="/images/placeholder-image.png" />
+    <p>Placeholder caption</p>
+</div> -->
 
 <br>
 
@@ -127,9 +111,11 @@ Interested? Check out the following publications:
 
 # 5. EvolvingSTEM
 
+We created EvolvingSTEM, a research-education partnership program that uses evolution-in-action to capture the imagination of middle and high school biology students. We partner with classrooms across the US to engage students in an authentic laboratory experience. They evolve populations of Pseudomonas fluorescens under selection for biofilm growth and observe conspicuous changes to colony morphology in as little as one week. Our goals are to (1) [increase understanding of key life science topics, including evolution, microbiology, and genetics,](https://evolution-outreach.biomedcentral.com/articles/10.1186/s12052-019-0103-4) (2) provide training in essential biotechnology skills, and (3) inspire an enduring interest in science. Students gain confidence in STEM topics through hands-on experiences and drawing connections from their bench-top experiments to real-life medical applications. In addition, we train teachers to effectively implement our program in their classrooms through an immersive 8-week summer research experience hosted in our laboratory through support from the National Science Foundation (NSF BIORETS 2147075, NIH SEPA R25AI180989).
+
 <div class="research_fig">
-    <img src="/images/stem_learning.png" />
-    <p>EvolvingSTEM</p>
+    <img src="/images/EvolvingSTEM_class.png" alt="High school students doing hands-on evolution experiments in class through the EvolvingSTEM program" />
+    <p>High school students doing hands-on evolution experiments in class through the EvolvingSTEM program.</p>
 </div>
 
-We have developed and direct a program called [EvolvingSTEM](http://www.evolvingstem.org/) that enables hundreds of high school students to learn about evolution and genetics by hands-on research. In one week, students conduct an evolution experiment with the benign biofilm-forming bacterium Pseudomonas fluorescens, which begins as a clone and ends as an obviously diverse and adapted population. This curriculum increases learning about evolution, ecology, and heredity statistically better than standard non-laboratory-based curricula, it is targeted towards Next-Generation Science Standards, and even increases student motivation to pursue STEM-based careers. It was featured in 5 schools in New Hampshire, two of which continue this curriculum, and is now ongoingat two Pittsburgh-area schools. It is currently supported by a seed award from the Sprout Fund and we seek broader support to refine and distribute this program nationwide.
+Interested? Learn more at the [EvolvingSTEM's official website](https://evolvingstem.org/)

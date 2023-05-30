@@ -8,4 +8,5 @@ image: /images/user-icon.svg
 group: hs
 year-start: 2010
 year-end:
+present-position: PhD candidate, Computational Biology, Utah
 ---

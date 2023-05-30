@@ -8,4 +8,5 @@ image: /images/user-icon.svg
 group: grad
 year-start: 2011
 year-end: 2016
+present-position: Assistant Professor, University of Toronto
 ---

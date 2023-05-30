@@ -8,4 +8,5 @@ image: /images/user-icon.svg
 group: grad
 year-start: 2010
 year-end: 2012
+present-position: PhD student, University of Houston
 ---
