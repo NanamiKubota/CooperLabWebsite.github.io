@@ -3,7 +3,7 @@ title: "Tools"
 permalink: /research/tools/
 author_profile: false
 layout: tools
-excerpt: "Translating inferences from evolutionary biology to improve human health and enable learning through authentic experiments education."
+excerpt: "Translating inferences from evolutionary biology to improve human health and enable learning through authentic experimentation."
 header:
     overlay_image: /images/notebook.png
     overlay_filter: rgba(36, 42, 40, 0.6)

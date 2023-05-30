@@ -8,7 +8,7 @@ toc: true
 toc_label: "Research Areas"
 toc_icon: "flask"
 toc_sticky: true
-excerpt: "Translating inferences from evolutionary biology to improve human health and enable learning through authentic experiments education."
+excerpt: "Translating inferences from evolutionary biology to improve human health and enable learning through authentic experimentation."
 header:
     overlay_image: /images/notebook.png
     overlay_filter: rgba(36, 42, 40, 0.6)
