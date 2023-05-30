@@ -233,7 +233,7 @@ plugins:
   - jekyll-include-cache
 collections:
   research:
-    output: true
+    output: false
   current:
     # directory: /people/current/
     output: false
@@ -242,6 +242,8 @@ collections:
     output: false
   blog:
     output: true
+  tools:
+    output: false
 
 # mimic GitHub Pages with --safe
 whitelist:

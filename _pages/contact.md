@@ -1,12 +1,12 @@
 ---
-title: "Contact"
+title: "Contact information"
 # excerpt: |
 #     Please Ship To: <br>
 #     Abigail Matela <br>
 #     Cooper Laboratory <br>
 #     450 Technology Drive, Suite 433 <br>
 #     Pittsburgh PA, 15219
-permalink: /contact/
+permalink: /contact/info/
 author_profile: false
 layout: contact
 header:

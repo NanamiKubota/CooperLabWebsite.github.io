@@ -9,7 +9,7 @@ group: grad
 links:
     CV:
     Email: "mailto:a.rokes@pitt.edu"
-    Publications:
+    Publications: "https://scholar.google.com/citations?user=I3-zPmYAAAAJ&hl=en&oi=ao"
     Twitter: "https://twitter.com/AleciaRokes"
     Website:
 year-start: 2020
