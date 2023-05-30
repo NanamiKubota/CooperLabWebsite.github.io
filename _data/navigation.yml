@@ -7,7 +7,11 @@ main:
       - title: Alumni
         url: /people/alumni/
   - title: "Research"
-    url: /research/
+    sublinks:
+      - title: Research Areas
+        url: /research/areas/
+      - title: Tools
+        url: /research/tools/
   - title: "Sequencing"
     url: https://www.microbialsequencing.pitt.edu/
   - title: "EvolvingSTEM"
@@ -16,4 +20,10 @@ main:
     url: /blog/
   - title: "Contact"
     url: /contact/
+    sublinks:
+      - title: Info
+        url: /contact/info/
+      - title: Join us
+        url: /contact/join/
+
     

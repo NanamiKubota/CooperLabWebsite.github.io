@@ -8,4 +8,5 @@ image: /images/user-icon.svg
 group: undergrad
 year-start: 2014
 year-end: 2015
+present-position: NY Genome Center
 ---

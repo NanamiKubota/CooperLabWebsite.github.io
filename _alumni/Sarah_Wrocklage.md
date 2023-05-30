@@ -8,4 +8,5 @@ image: /images/user-icon.svg
 group: grad
 year-start: 2006
 year-end: 2009
+present-position: Pharmaceutical industry
 ---
