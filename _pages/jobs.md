@@ -36,4 +36,4 @@ Our lab uses various in vitro and in vivo models as well as prospective clinical
 
 <br>
 
-Various positions are open in the Cooper Lab. [Click here to find out more](/images/CooperLab-OpenPositions-2023-rev.pdf)
+Various positions are open in the Cooper Lab. [Click here to download a docx file with more info on each position](/images/CooperLab-OpenPositions-2023-rev.docx).
