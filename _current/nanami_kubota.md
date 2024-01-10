@@ -12,6 +12,8 @@ links:
     Publications: "https://scholar.google.com/citations?user=B1-vMZEAAAAJ&hl=en&oi=ao"
     Twitter: "https://twitter.com/NanamiKubota"
     Website: "https://nanamikubota.github.io/"
+    LinkedIn: "https://www.linkedin.com/in/nanami-kubota/"
+    Bluesky: "https://bsky.app/profile/nanamikubota.bsky.social"
 year-start: 2020
 year-end: present
 ---

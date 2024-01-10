@@ -28,16 +28,16 @@ layout: default
             {% include current_profile.html %}
         {% endfor %}
     {% endif %}
-    {% assign current = site.current | where:'group', "grad" %}
+    {% assign current = site.current | where:'group', "staff" %}
     {% if current != empty %}
-        <h2>Graduate Researcher</h2>
+        <h2>Research Staff</h2>
         {% for person in current %}
             {% include current_profile.html %}
         {% endfor %}
     {% endif %}
-    {% assign current = site.current | where:'group', "staff" %}
+    {% assign current = site.current | where:'group', "grad" %}
     {% if current != empty %}
-        <h2>Research Staff</h2>
+        <h2>Graduate Researcher</h2>
         {% for person in current %}
             {% include current_profile.html %}
         {% endfor %}

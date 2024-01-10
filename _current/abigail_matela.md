@@ -12,6 +12,7 @@ links:
     Publications:
     Twitter:
     Website: "https://evolvingstem.org/"
+    LinkedIn: "https://www.linkedin.com/in/abigail-mazie-matela-186b29114/"
 year-start: 2018
 year-end: present
 ---

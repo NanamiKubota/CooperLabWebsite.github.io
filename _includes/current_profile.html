@@ -6,8 +6,10 @@
         <div class="current-container__icon">
             {% if person.links.CV != null %}<a href="{{ person.links.CV }}" style="text-decoration: none;" ><div class="current-icon"><img class="current-icon__filter" src="/images/icons/file-solid.svg" >CV</div></a>{% endif %}
             {% if person.links.Email != null %}<a href="{{ person.links.Email }}" style="text-decoration: none;" ><div class="current-icon"><img class="current-icon__filter" src="/images/icons/envelope-solid.svg" >Email</div></a>{% endif %}
+            {% if person.links.LinkedIn != null %}<a href="{{ person.links.LinkedIn }}" style="text-decoration: none;" ><div class="current-icon"><i class="fab fa-fw fa-linkedin" ></i>LinkedIn</div></a>{% endif %}
             {% if person.links.Publications != null %}<a href="{{ person.links.Publications }}" style="text-decoration: none;" ><div class="current-icon"><img class="current-icon__filter" src="/images/icons/book-solid.svg" >Publications</div></a>{% endif %}
-            {% if person.links.Twitter != null %}<a href="{{ person.links.Twitter }}" style="text-decoration: none;" ><div class="current-icon"><i class="fab fa-fw fa-twitter-square" ></i>Twitter</div></a>{% endif %}
+            <!-- {% if person.links.Twitter != null %}<a href="{{ person.links.Twitter }}" style="text-decoration: none;" ><div class="current-icon"><i class="fab fa-fw fa-twitter-square" ></i>Twitter</div></a>{% endif %} -->
+            {% if person.links.Bluesky != null %}<a href="{{ person.links.Bluesky }}" style="text-decoration: none;" ><div class="current-icon"><img class="current-icon__filter" src="/images/icons/bluesky.svg" >Bluesky</div></a>{% endif %}
             {% if person.links.Website != null %}<a href="{{ person.links.Website }}" style="text-decoration: none;" ><div class="current-icon"><img class="current-icon__filter" src="/images/icons/globe-solid.svg" >Website</div></a>{% endif %}
         </div>
     </div>

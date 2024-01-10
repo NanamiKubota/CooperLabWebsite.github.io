@@ -116,9 +116,15 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/vscooper"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/vaughn-cooper-phd/"
+    - label: "Bluesky"
+      icon: /images/icons/bluesky.svg
+      url: "https://bsky.app/profile/vscooper.bsky.social"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/vscooper"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -132,9 +138,15 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/vscooper"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/vscooper"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/vaughn-cooper-phd/"
+    - label: "Bluesky"
+      icon: /images/icons/bluesky.svg
+      url: "https://bsky.app/profile/vscooper.bsky.social"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:

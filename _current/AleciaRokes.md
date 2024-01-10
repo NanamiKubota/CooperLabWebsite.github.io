@@ -12,6 +12,7 @@ links:
     Publications: "https://scholar.google.com/citations?user=I3-zPmYAAAAJ&hl=en&oi=ao"
     Twitter: "https://twitter.com/AleciaRokes"
     Website:
+    LinkedIn: "https://www.linkedin.com/in/alecia-rokes-5a0483280/"
 year-start: 2020
 year-end: present
 ---
