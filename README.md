@@ -1,5 +1,16 @@
 # Cooper Lab Website
 
+## Update December 2023
+
+- Add new lab members
+- Replaced Twitter/X with Bluesky and LinkedIn
+
+To do
+- Get missing lab member profile
+- Add publication page
+- Update research area page?
+
+
 ## Major updates 12-2022
  - Changing jekyll theme to minimal mistakes
  - Home page
@@ -16,7 +27,6 @@
 
 ## TO DO
 - Get missing profile pictures
-- Ask for updated research page content
 
 <br>
 
@@ -36,7 +46,7 @@ Avoid making edits to the actual branch where the website is hosted on, and inst
 
 ### Adding People
 
-To add people to the current or alumni webpage, create a markdown (.md) file and populate the appropriate fields. I recommend just copying and pasting a markdown file from the "_current" folder to use as a template. Remember to rename the markdown file. The beginning of the markdown file should look something like this:
+To add people to the current or alumni webpage, create a markdown file (.md) and populate the appropriate fields. I recommend just copying and pasting a markdown file from the "_current" folder to use as a template. Remember to rename the markdown file. The beginning of the markdown file should look something like this:
 
 ```
 ---
@@ -92,3 +102,15 @@ Below the YAML header (below the three dash lines; ---), enter a short introduct
 Familiarize yourself with markdown files, css, html, and a little bit of YAML to make it easier to navigate the files.
 
 To be updated.
+
+
+## Using Jekyll
+
+To run the website locally, run:
+```
+bundle exec jekyll serve
+```
+
+This should allow you to preview the website locally at http://127.0.0.1:4000.
+
+Refer to this website for more info: https://jekyllrb.com/tutorials/using-jekyll-with-bundler/

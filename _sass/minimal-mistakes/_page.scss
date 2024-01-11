@@ -1026,3 +1026,15 @@ body {
     width: calc(#{$right-sidebar-width} - 1em);
   }
 }
+
+.footer-icon {
+  filter: invert(86%) sepia(1%) saturate(35%) hue-rotate(343deg) brightness(106%) contrast(102%);
+  display: inline-block;
+  fill: currentColor;
+  width: 1em;
+  margin-right: 0.25em;
+  height: 1.1em;
+  line-height: 1;
+  position: relative;
+  top: -0.1em;
+}
