@@ -3,7 +3,7 @@ title: Alecia Rokes
 position: PhD Student
 contact: a.rokes@pitt.edu
 publications: 
-image: /images/alecia_rokes_crop.jpeg
+image: /images/alecia_rokes_new.jpg
 collection: current
 group: grad
 links:
