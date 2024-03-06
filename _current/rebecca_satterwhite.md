@@ -1,5 +1,5 @@
 ---
-title: Glenn Rapsinski
+title: Rebecca Satterwhite
 position: Postdoctoral Associate
 contact: satterwhite@pitt.edu
 publications: 
