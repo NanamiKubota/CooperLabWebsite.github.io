@@ -1,11 +1,11 @@
 ---
 title: Glenn Rapsinski
-position: Postdoctoral Associate
+position: Faculty
 contact: glenn.rapsinski2@chp.edu
 publications: 
 image: /images/glenn.JPG
 collection: current
-group: postdoc
+group: faculty
 links:
     CV:
     Email: "mailto:glenn.rapsinski2@chp.edu"
