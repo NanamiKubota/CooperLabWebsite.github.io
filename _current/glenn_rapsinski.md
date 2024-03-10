@@ -1,6 +1,6 @@
 ---
 title: Glenn Rapsinski
-position: Faculty
+position: Faculty Instructor
 contact: glenn.rapsinski2@chp.edu
 publications: 
 image: /images/glenn.JPG
