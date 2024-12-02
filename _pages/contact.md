@@ -22,8 +22,8 @@ header:
       <div class="contact-card-text">
         <p>
           <b>Shipping Address: </b><br>
-          Abigail Matela <br>
-          Cooper Laboratory <br>
+          Erin Nawrocki <br>
+          Cooper Lab <br>
           450 Technology Drive, Suite 433 <br>
           Pittsburgh PA, 15219
         </p>

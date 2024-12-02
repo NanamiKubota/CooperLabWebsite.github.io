@@ -13,7 +13,7 @@ links:
     Publications: "https://scholar.google.com/citations?user=dcezvIQAAAAJ&hl=en&oi=ao"
     # Twitter: "https://twitter.com/vscooper"
     LinkedIn: "https://www.linkedin.com/in/vaughn-cooper-phd/"
-    Bluesky: "https://bsky.app/profile/vscooper.bsky.social"
+    Bluesky: "https://bsky.app/profile/micropopbio.org"
 group: PI
 ---
 Vaughn Cooper is an evolutionary microbiologist and Professor at the University of Pittsburgh. He is broadly interested in how potential pathogens (e.g. bacteria such as <i> Burkholderia, Pseudomonas, Acinetobacter</i>, and viruses like SARS-CoV-2) evolve to adapt to new hosts and environments. Other major interests include evolution in biofilms, the evolution of antimicrobial resistance and why genome regions mutate and evolve at different rates. 

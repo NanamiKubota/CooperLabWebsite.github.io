@@ -15,6 +15,7 @@ links:
     LinkedIn: "https://www.linkedin.com/in/abigail-mazie-matela-186b29114/"
 year-start: 2018
 year-end: present
+present-position:
 ---
 Abigail graduated from the University of Pittsburgh with a BS in Biological Sciences and BA in Anthropology. She received her PhD in Botany from the University of Wisconsin-Madison, where she worked under the mentorship of David Baum to study genes involved in the evolution of plant leaf hair shape in the Mustard family. She was actively involved in teaching introductory and upper level science courses and was awarded the Eldon H. Newcomb Award for Excellence as a Teaching Assistant.
  
