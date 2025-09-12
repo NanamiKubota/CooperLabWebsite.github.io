@@ -1,6 +1,7 @@
 # Cooper Lab Website
 
 - [Cooper Lab Website](#cooper-lab-website)
+  - [Update September 2025](#update-september-2025)
   - [Update December 2024](#update-december-2024)
   - [Update December 2023](#update-december-2023)
   - [Major updates 12-2022](#major-updates-12-2022)
@@ -9,39 +10,9 @@
     - [Adding People](#adding-people)
   - [Website structure](#website-structure)
     - [Updating lab roster](#updating-lab-roster)
+    - [Updating research area page](#updating-research-area-page)
     - [Other customization](#other-customization)
   - [Using Jekyll](#using-jekyll)
-
-
-## Update December 2024
-
-- Update lab members
-- Update Vaughn's bluesky handle to new handle
-- Update documentation on how to update website
-
-## Update December 2023
-
-- Add new lab members
-- Replaced Twitter/X with Bluesky and LinkedIn
-
-To do
-- Get missing lab member profile
-- Add publication page
-- Update research area page?
-
-
-## Major updates 12-2022
- - Changing jekyll theme to minimal mistakes
- - Home page
-   - Replaced with lab logo and mission statement
- - People
-   - Current lab members and alumni members are under People tab
-   - Added missing current and alumni members
- - Contact
-   - Updated contact page
-   - Updated format
- - Research
-   - Updated format
 
 <br>
 
@@ -149,3 +120,45 @@ bundle exec jekyll serve
 This should allow you to preview the website locally at http://127.0.0.1:4000.
 
 Refer to this website for more info: https://jekyllrb.com/tutorials/using-jekyll-with-bundler/
+
+<br>
+
+***
+
+# Log
+
+## Update September 2025
+
+- Update lab members
+- Update Vaughn's bluesky handle again
+- Update documentation
+
+## Update December 2024
+
+- Update lab members
+- Update Vaughn's bluesky handle to new handle
+- Update documentation on how to update website
+
+## Update December 2023
+
+- Add new lab members
+- Replaced Twitter/X with Bluesky and LinkedIn
+
+To do
+- Get missing lab member profile
+- Add publication page
+- Update research area page?
+
+
+## Major updates 12-2022
+ - Changing jekyll theme to minimal mistakes
+ - Home page
+   - Replaced with lab logo and mission statement
+ - People
+   - Current lab members and alumni members are under People tab
+   - Added missing current and alumni members
+ - Contact
+   - Updated contact page
+   - Updated format
+ - Research
+   - Updated format
