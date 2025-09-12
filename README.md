@@ -1,10 +1,6 @@
 # Cooper Lab Website
 
 - [Cooper Lab Website](#cooper-lab-website)
-  - [Update September 2025](#update-september-2025)
-  - [Update December 2024](#update-december-2024)
-  - [Update December 2023](#update-december-2023)
-  - [Major updates 12-2022](#major-updates-12-2022)
 - [Lab website documentation for future edits](#lab-website-documentation-for-future-edits)
   - [How to update](#how-to-update)
     - [Adding People](#adding-people)
@@ -13,6 +9,11 @@
     - [Updating research area page](#updating-research-area-page)
     - [Other customization](#other-customization)
   - [Using Jekyll](#using-jekyll)
+- [Log](#log)
+  - [Update September 2025](#update-september-2025)
+  - [Update December 2024](#update-december-2024)
+  - [Update December 2023](#update-december-2023)
+  - [Major updates 12-2022](#major-updates-12-2022)
 
 <br>
 
