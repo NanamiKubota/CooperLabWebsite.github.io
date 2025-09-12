@@ -3,7 +3,7 @@ title: Rebecca Satterwhite
 position: Postdoctoral Associate
 contact: satterwhite@pitt.edu
 publications: 
-image: /images/rebecca_satterwhite.JPG
+image: /images/becca_satterwhite2.jpeg
 collection: current
 group: postdoc
 links:
@@ -18,4 +18,6 @@ year-start: 2024
 year-end: present
 present-position:
 ---
-Rebecca Satterwhite recently joined Cooper Lab as a postdoctoral associate. She earned her PhD in the lab of Joy Bergelson at the University of Chicago, where she investigated the molecular mechanisms underlying phytopathogen evolution. Prior to her doctoral studies, Rebecca completed her MS in the lab of Tim F. Cooper at the University of Houston, where she conducted research focused on microbial evolution and population genetics. In Vaughn Cooper's Lab, she aims to leverage her expertise to explore the evolutionary dynamics of bacterial pathogens and antibiotics, contributing to the development of novel therapeutic strategies. Rebecca is a dedicated researcher with a passion for scientific communication and mentoring the next generation of scientists.
+Rebecca joined Cooper Lab as a postdoctoral associate in 2024, and is currently co-mentored by Dr. Kathy Shair. Her postdoctoral research focuses on the interface of medicine and microbial evolution. She investigates how microorganisms evolve to cause disease and evade treatment, with the broader goal of informing strategies to improve patient outcomes.
+
+Rebecca earned her PhD in the lab of Dr. Joy Bergelson at the University of Chicago, where she studied phytopathogen adaptation. Prior to her doctoral studies, Rebecca completed her MS in the lab of Dr. Tim F. Cooper at the University of Houston, where she studied long-term evolution of bacteria in fluctuating environments.
