@@ -12,6 +12,7 @@ links:
     Publications: "https://scholar.google.com/citations?user=akg6hAcAAAAJ&hl=en&oi=ao"
     Twitter:
     LinkedIn: "https://www.linkedin.com/in/rssatterwhite/"
+    Bluesky: "https://bsky.app/profile/satterwhite.bsky.social"
     Website: 
 year-start: 2024
 year-end: present

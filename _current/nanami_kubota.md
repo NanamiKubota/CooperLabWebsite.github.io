@@ -14,7 +14,7 @@ links:
     Website: "https://nanamikubota.github.io/"
     LinkedIn: "https://www.linkedin.com/in/nanami-kubota/"
     Bluesky: "https://bsky.app/profile/nanamikubota.bsky.social"
-year-start: 2020
+year-start: 2021
 year-end: present
 present-position:
 ---

@@ -10,7 +10,7 @@ links:
     Email: "mailto:NAB178@pitt.edu"
     LinkedIn: "https://www.linkedin.com/in/naomi-bastiampillai/"
 year-start: 2022
-year-end: present
+year-end: 2025
 present-position:
 ---
 Naomi Bastiampillai is a research technician who received her Bachelor of Science with Honors in Microbiology from the University of Pittsburgh in 2024. As an undergraduate, she performed research in the Cooper Lab under the mentorship of Alecia Rokes, where she explored how the presence of efflux pumps affects the evolutionary pathways taken towards antibiotic resistance in the pathogen <i>Acinetobacter baumannii</i>.
