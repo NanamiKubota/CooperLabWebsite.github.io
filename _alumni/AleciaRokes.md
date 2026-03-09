@@ -1,5 +1,5 @@
 ---
-title: Alecia Rokes
+title: Alecia Rokes, PhD
 position: PhD Student
 contact: a.rokes@pitt.edu
 publications: 

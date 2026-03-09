@@ -7,6 +7,6 @@ publications:
 image: /images/user-icon.svg
 group: undergrad
 year-start: 2020
-year-end:
+year-end: 2020
 present-position: Cornell University
 ---

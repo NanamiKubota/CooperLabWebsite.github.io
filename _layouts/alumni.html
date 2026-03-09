@@ -9,69 +9,25 @@ layout: default
 {% endif %}
 
 <div id="main" role="main" >
-    <h2>Postdoctoral Researcher</h2>
+    <!-- <h2>Fellows</h2>
     <ul class="alumni-cards">
-        {% assign alumni = site.alumni | where:'group', "postdoc" | sort:'year-start' | reverse %}
+        {% assign alumni = site.alumni | where:'group', "faculty" | sort:'year-end' | reverse %}
         {% for person in alumni %} 
             <li class="alumni-cards_item">
                 <div class="alumni-card">
-                    <!-- <img src="{{ person.image }}" class="alumni-image"> -->
                     <div class="alumni-container">
                         <p class="alumni-name">{{ person.title }}</p>
                         <p class="alumni-position">{{ person.position }}</p>
                         <p class="alumni-position">{{ person.year-start }} - {{ person.year-end }}</p>
                         ***
                         <p class="alumni-present-position">{{ person.present-position }}</p>
-                        <!-- <p><button class="button">Contact</button></p> -->
                     </div>
-                    <!-- <p>{{ person.title }} - {{ person.position }}</p>
-                    <p>{{ person.content | markdownify }}</p> -->
-                    </div>
-            </li>
-        {% endfor %}
-    </ul>
-    <h2>Graduate Researcher</h2>
-    <ul class="alumni-cards">
-        {% assign alumni = site.alumni | where:'group', "grad" | sort:'year-start' | reverse %}
-        {% for person in alumni %} 
-            <li class="alumni-cards_item">
-                <div class="alumni-card">
-                    <!-- <img src="{{ person.image }}" class="alumni-image"> -->
-                    <div class="alumni-container">
-                        <p class="alumni-name">{{ person.title }}</p>
-                        <p class="alumni-position">{{ person.position }}</p>
-                        <p class="alumni-position">{{ person.year-start }} - {{ person.year-end }}</p>
-                        ***
-                        <p class="alumni-present-position">{{ person.present-position }}</p>
-                        <!-- <p class="alumni-contact">{{ person.contact }}</p> -->
-                        <!-- <p><button class="button">Contact</button></p> -->
-                    </div>
-                    <!-- <p>{{ person.title }} - {{ person.position }}</p>
-                    <p>{{ person.content | markdownify }}</p> -->
-                    </div>
-            </li>
-        {% endfor %}
-    </ul>
-    <!-- <h2>Research Staff</h2>
-    <ul class="alumni-cards">
-        {% assign alumni = site.alumni | where:'group', "staff" | sort:'year-start' | reverse %}
-        {% for person in alumni %} 
-            <li class="alumni-cards_item">
-                <div class="alumni-card">
-                    <img src="{{ person.image }}" class="alumni-image">
-                    <div class="alumni-container">
-                        <p class="alumni-name">{{ person.title }}</p>
-                        <p class="alumni-position">{{ person.position }}</p>
-                        <p class="alumni-position">{{ person.year-start }}{% if person.year-end != null %} - {{ person.year-end }}</p>{% endif %}
-                        <p class="alumni-contact">{{ person.contact }}</p>
-                    </div>
-                </div>
             </li>
         {% endfor %}
     </ul> -->
-    <h2>Undergraduate Researcher</h2>
+    <h2>Postdoctoral Researchers</h2>
     <ul class="alumni-cards">
-        {% assign alumni = site.alumni | where:'group', "undergrad" | sort:'year-start' | reverse %}
+        {% assign alumni = site.alumni | where:'group', "postdoc" | sort:'year-end' | reverse %}
         {% for person in alumni %} 
             <li class="alumni-cards_item">
                 <div class="alumni-card">
@@ -79,7 +35,28 @@ layout: default
                     <div class="alumni-container">
                         <p class="alumni-name">{{ person.title }}</p>
                         <p class="alumni-position">{{ person.position }}</p>
-                        <p class="alumni-position">{{ person.year-start }}{% if person.year-end != null %} - {{ person.year-end }}{% endif %}</p>
+                        <p class="alumni-position">{{ person.year-start }} - {{ person.year-end }}</p>
+                        ***
+                        <p class="alumni-present-position">{{ person.present-position }}</p>
+                        <!-- <p><button class="button">Contact</button></p> -->
+                    </div>
+                    <!-- <p>{{ person.title }} - {{ person.position }}</p>
+                    <p>{{ person.content | markdownify }}</p> -->
+                    </div>
+            </li>
+        {% endfor %}
+    </ul>
+    <h2>Graduate Researchers</h2>
+    <ul class="alumni-cards">
+        {% assign alumni = site.alumni | where:'group', "grad" | sort:'year-end' | reverse %}
+        {% for person in alumni %} 
+            <li class="alumni-cards_item">
+                <div class="alumni-card">
+                    <!-- <img src="{{ person.image }}" class="alumni-image"> -->
+                    <div class="alumni-container">
+                        <p class="alumni-name">{{ person.title }}</p>
+                        <p class="alumni-position">{{ person.position }}</p>
+                        <p class="alumni-position">{{ person.year-start }} - {{ person.year-end }}</p>
                         ***
                         <p class="alumni-present-position">{{ person.present-position }}</p>
                         <!-- <p class="alumni-contact">{{ person.contact }}</p> -->
@@ -91,9 +68,42 @@ layout: default
             </li>
         {% endfor %}
     </ul>
-    <h2>High School Researcher</h2>
+    <h2>Research Staffs</h2>
     <ul class="alumni-cards">
-        {% assign alumni = site.alumni | where:'group', "hs" | sort:'year-start' | reverse %}
+        {% assign alumni = site.alumni | where:'group', "staff" | sort:'year-end' | reverse %}
+        {% for person in alumni %} 
+            <li class="alumni-cards_item">
+                <div class="alumni-card">
+                    <div class="alumni-container">
+                        <p class="alumni-name">{{ person.title }}</p>
+                        <p class="alumni-position">{{ person.position }}</p>
+                        {% if person.year-start or person.year-end %}
+                            <p class="alumni-position">
+                                {% if person.year-start and person.year-end %}
+                                    
+                                    {% if person.year-start == person.year-end %}
+                                    {{ person.year-end }}
+                                    {% else %}
+                                    {{ person.year-start }} - {{ person.year-end }}
+                                    {% endif %}
+                                    
+                                {% elsif person.year-start %}
+                                    {{ person.year-start }}
+                                {% elsif person.year-end %}
+                                    {{ person.year-end }}
+                                {% endif %}
+                            </p>
+                        {% endif %}
+                        ***
+                        <p class="alumni-present-position">{{ person.present-position }}</p>
+                    </div>
+                    </div>
+            </li>
+        {% endfor %}
+    </ul>
+    <h2>Undergraduate Researchers</h2>
+    <ul class="alumni-cards">
+        {% assign alumni = site.alumni | where:'group', "undergrad" | sort:'year-end' | reverse %}
         {% for person in alumni %} 
             <li class="alumni-cards_item">
                 <div class="alumni-card">
@@ -101,7 +111,59 @@ layout: default
                     <div class="alumni-container">
                         <p class="alumni-name">{{ person.title }}</p>
                         <p class="alumni-position">{{ person.position }}</p>
-                        <p class="alumni-position">{{ person.year-start }}{% if person.year-end != null %} - {{ person.year-end }}{% endif %}</p>
+                        {% if person.year-start or person.year-end %}
+                            <p class="alumni-position">
+                                {% if person.year-start and person.year-end %}
+                                    
+                                    {% if person.year-start == person.year-end %}
+                                    {{ person.year-end }}
+                                    {% else %}
+                                    {{ person.year-start }} - {{ person.year-end }}
+                                    {% endif %}
+                                    
+                                {% elsif person.year-start %}
+                                    {{ person.year-start }}
+                                {% elsif person.year-end %}
+                                    {{ person.year-end }}
+                                {% endif %}
+                            </p>
+                        {% endif %}
+                        <!-- <p class="alumni-position">{{ person.year-start }}{% if person.year-end != null %} - {{ person.year-end }}{% endif %}</p> -->
+                        ***
+                        <p class="alumni-present-position">{{ person.present-position }}</p>
+                    </div>
+                    </div>
+            </li>
+        {% endfor %}
+    </ul>
+    <h2>High School Researchers</h2>
+    <ul class="alumni-cards">
+        {% assign alumni = site.alumni | where:'group', "hs" | sort:'year-end' | reverse %}
+        {% for person in alumni %} 
+            <li class="alumni-cards_item">
+                <div class="alumni-card">
+                    <!-- <img src="{{ person.image }}" class="alumni-image"> -->
+                    <div class="alumni-container">
+                        <p class="alumni-name">{{ person.title }}</p>
+                        <p class="alumni-position">{{ person.position }}</p>
+                        <!-- <p class="alumni-position">{{ person.year-start }}{% if person.year-end != null %} - {{ person.year-end }}{% endif %}</p> -->
+                         {% if person.year-start or person.year-end %}
+                            <p class="alumni-position">
+                                {% if person.year-start and person.year-end %}
+                                    
+                                    {% if person.year-start == person.year-end %}
+                                    {{ person.year-end }}
+                                    {% else %}
+                                    {{ person.year-start }} - {{ person.year-end }}
+                                    {% endif %}
+                                    
+                                {% elsif person.year-start %}
+                                    {{ person.year-start }}
+                                {% elsif person.year-end %}
+                                    {{ person.year-end }}
+                                {% endif %}
+                            </p>
+                        {% endif %}
                         ***
                         <p class="alumni-contact">{{ person.contact }}</p>
                     </div>

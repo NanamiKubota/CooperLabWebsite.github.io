@@ -7,6 +7,6 @@ publications:
 image: /images/user-icon.svg
 group: hs
 year-start: 2010
-year-end:
+year-end: 2010
 present-position: PhD candidate, Computational Biology, Utah
 ---

@@ -17,4 +17,4 @@ year-start: 2024 #start year
 year-end: present #leave as present for current members, and add year for alumni
 present-position: #leave blank for current members, add for alumni
 ---
-Ethan Canavan is an undergraduate researcher at the University of Pittsburgh. He is a sophomore pursuing a bachelor's degree in bioengineering with a minor in chemistry. He is currently studying the evolution of Pseudomonas aeruginosa that colonize tracheostomy tubes. He plans to pursue an MD-PhD to combine his passions of research and medicine.
+Ethan Canavan is an undergraduate researcher at the University of Pittsburgh. He is a sophomore pursuing a bachelor's degree in bioengineering with a minor in chemistry. He is currently studying the evolution of <i>Pseudomonas aeruginosa</i> that colonize tracheostomy tubes. He plans to pursue an MD-PhD to combine his passions of research and medicine.
