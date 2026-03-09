@@ -7,6 +7,6 @@ publications:
 image: /images/user-icon.svg
 group: undergrad
 year-start: 2007
-year-end:
+year-end: 2007
 present-position: M.S. public health
 ---

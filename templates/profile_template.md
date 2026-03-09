@@ -4,7 +4,7 @@ position: PhD Student #or replace with Staff Scientist, Faculty Instructor, Post
 contact: jane.doe@pitt.edu #enter email here
 image: /images/user-icon.svg #enter path to profile picture (please put picture under /images/ folder)
 collection: current #keep as current for current members, comment out this line for alumni
-group: grad #PI, faculty, postdoc, staff, grad, visiting, undergrad, or hs (this helps bin the profile under the appropriate heading in the current/alumni page); note that when this markdown is under alumni, only postdoc, grad, undergrad, and hs are shown in the alumni page as requested by Vaughn
+group: grad #PI, fellow, postdoc, staff, grad, visiting, undergrad, or hs (this helps bin the profile under the appropriate heading in the current/alumni page); note that when this markdown is under alumni, only postdoc, grad, undergrad, and hs are shown in the alumni page as requested by Vaughn
 links: #the below links are optional and can be left blank
     CV: #link to CV
     Email: "mailto:jane.doe@pitt.edu" #edit email address

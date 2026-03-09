@@ -13,7 +13,7 @@ links:
     Twitter: 
     Website: 
 year-start: 2023
-year-end: present
+year-end: 2026
 present-position:
 ---
 Colton Siatkowski is research technician at the University of Pittsburgh. He completed his bachelors in biological sciences in 2024, and in the lab works under Dr. Matela for the EvolvingSTEM education outreach program. Outside of the lab, he is also involved with The Pitt Pulse, Pitt's health and science magazine, as a graphic designer.

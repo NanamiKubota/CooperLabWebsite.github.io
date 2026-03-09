@@ -7,5 +7,5 @@ publications:
 image: /images/user-icon.svg
 group: hs
 year-start: 2006
-year-end:
+year-end: 2006
 ---

@@ -1,5 +1,5 @@
 ---
-title: Anshika Gupta
+title: Anshika Gupta, PhD
 position: Postdoctoral Associate
 contact: ang425@pitt.edu
 publications: 

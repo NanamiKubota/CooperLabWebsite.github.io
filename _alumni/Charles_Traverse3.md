@@ -7,6 +7,6 @@ publications:
 image: /images/user-icon.svg
 group: hs
 year-start: 2005
-year-end:
+year-end: 2005
 present-position: PhD from UT-Austin, Analyst for Wayfair
 ---

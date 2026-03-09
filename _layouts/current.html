@@ -16,7 +16,7 @@ layout: default
     {% endfor %}
     {% assign current = site.current | where:'group', "faculty" %}
     {% if current != empty %}
-        <h2>Faculty Instructor</h2>
+        <h2>Faculty</h2>
         {% for person in current %}
             {% include current_profile.html %}
         {% endfor %}
