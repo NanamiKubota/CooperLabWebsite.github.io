@@ -20,7 +20,7 @@ title                    : "Cooper Lab"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 #name                     : "Your Name"
-description              : "evolution-in-action at University of Pittsburgh School of Medicine"
+description              : "Evolution-in-action at University of Pittsburgh School of Medicine"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -86,7 +86,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : /assets/images/site-logo.png # Open Graph/Twitter default site image
+og_image                 : /assets/images/site-logo_rectangle.png # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -121,7 +121,7 @@ author:
       url: "https://www.linkedin.com/in/vaughn-cooper-phd/"
     - label: "Bluesky"
       icon: /images/icons/bluesky.svg
-      url: "https://bsky.app/profile/vscooper.bsky.social"
+      url: "https://bsky.app/profile/vscooper.micropopbio.org"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/vscooper"
@@ -146,7 +146,7 @@ footer:
       url: "https://www.linkedin.com/in/vaughn-cooper-phd/"
     - label: "Bluesky"
       icon: /images/icons/bluesky.svg
-      url: "https://bsky.app/profile/vscooper.bsky.social"
+      url: "https://bsky.app/profile/vscooper.micropopbio.org"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
