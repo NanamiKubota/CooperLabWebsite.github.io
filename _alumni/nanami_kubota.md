@@ -16,7 +16,7 @@ links:
     Bluesky: "https://bsky.app/profile/nanamikubota.bsky.social"
 year-start: 2021
 year-end: 2026
-present-position: Incoming postdoc at Turner Lab, Yale University
+present-position: Postdoc at Turner Lab, Yale University
 ---
 Nanami recently graduated with a PhD from the Program of Microbiology and Immunology (PMI) at the University of Pittsburgh. She worked on understanding how phage genomes integrated in the bacterial chromosome (i.e., prophages) can influence bacterial fitness and community composition using <i>Pseudomonas aeruginosa</i> and its filamentous Pf phage. She is currently finishing up her work in the Cooper lab before starting her postdoctoral position in the Turner lab at Yale University. 
 
